@@ -1,0 +1,2 @@
+# ScriptablesComponent
+Ios Scriptables Component
