@@ -23,7 +23,7 @@
 <br/>
 
 <p align="center">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3099.JPG">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3100.JPG">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3010.png">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3011.png">
 </p>
 
