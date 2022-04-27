@@ -6,9 +6,7 @@
 
 <h1 align="center">ChinaTelecomPanel</h1>
 
-<div align="center">中国电信监控插件</div>
-<br/>
-<div align="center">配合 <a href="https://github.com/LambdaExpression/ChinaTelecomMonitor">ChinaTelecomMonitor</a> 使用可无须反复手动获取登录cookie</div>
+<div align="center">中国电信监控插件。配合 <a href="https://github.com/LambdaExpression/ChinaTelecomMonitor">ChinaTelecomMonitor</a> 使用可无须反复手动获取登录cookie</div>
 <br/>
 <div align="center">
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/language-node-orange.svg" /></a>
