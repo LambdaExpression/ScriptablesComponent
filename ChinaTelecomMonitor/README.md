@@ -39,5 +39,5 @@ FILE_MGR.remove(module.filename);
 Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomMonitor'));
 ```
 
-### 2.再手机打开 [Scriptable](scriptable:///add?scriptName=hello)，点击 ➕，粘贴，运行 ▶️
+### 2.在手机打开 [Scriptable](scriptable:///add?scriptName=hello) ，点击 ➕，粘贴，运行 ▶️
 
