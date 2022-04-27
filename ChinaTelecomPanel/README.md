@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/LambdaExpression/GatewayAuth">
+  <a href="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/">
     <img width="150" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/logo.png">
   </a>
 </p>
