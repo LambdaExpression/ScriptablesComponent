@@ -1,4 +1,4 @@
-## ScriptablesComponent
+## [ScriptablesComponent](https://lambdaexpression.github.io/ScriptablesComponent)
 
 IOS [Scriptables](https://scriptable.app/) 插件
 
