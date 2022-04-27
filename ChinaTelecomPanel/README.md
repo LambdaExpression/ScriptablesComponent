@@ -53,6 +53,8 @@ Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPan
 
 ## 设置
 
-### 1.配置好 [ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor) ，获取项目远程访问地址 http://xxxxx:8080/show/flow
+### 1.部署好 [ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor) ，获取项目远程访问地址 http://xxxxx/show/flow
 
-### 2.
+### 2.点击执行小组件，选择“地址设置”，输入保存上面的远程访问地址
+
+### 3.点击执行小组件，选择“预览组件”->“小尺寸 Small”。测试正常后，就可以愉快的添加至桌面了。
