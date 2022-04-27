@@ -26,6 +26,8 @@
   <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3102.png">
 </p>
 
+## 插件安装
+
 ### 1.点击复制下面代码
 
 ```js
