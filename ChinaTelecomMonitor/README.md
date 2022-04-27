@@ -28,7 +28,7 @@
 
 ## 插件安装
 
-### 1.点击复制下面代码
+### 1.复制下面代码
 
 ```js
 const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
