@@ -30,7 +30,7 @@
 
 ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。
 
-需要配合[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)共同使用。[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)可以通过配置电信账号密码实现自动获取话费和流量，解决cookie有效期短的痛点
+需要配合[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)共同使用。[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)是一个可以通过配置电信账号密码实现自动获取话费和流量服务应用，可用于解决cookie有效期短的痛点
 
 - 第一行的百分比是 (已使用通用流量+已使用专用流量)/(通用流量总额度+专用流量总额度)
 - 第二行的百分比是 (已使用通用流量)/(通用流量总额度)
