@@ -6,7 +6,9 @@
 
 <h1 align="center">ChinaTelecomPanel</h1>
 
-<div align="center">中国电信监控插件 </div>
+<div align="center">中国电信监控插件</div>
+<br/>
+<div align="center">配合 <a href="https://github.com/LambdaExpression/ChinaTelecomMonitor">ChinaTelecomMonitor</a> 使用可无须反复手动获取登录cookie</div>
 <br/>
 <div align="center">
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/language-node-orange.svg" /></a>
@@ -28,7 +30,9 @@
 
 ## 介绍
 
-ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。需要配合[ChinaTelecomMonitor](xxx)共同使用，[ChinaTelecomMonitor](xxx)可以通过配置电信账号密码实现自动获取话费和流量，无须反复手动获取cookie
+ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。需要配合[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)共同使用。
+
+[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)可以通过配置电信账号密码实现自动获取话费和流量，解决cookie有效期短的痛点
 
 ## 设置
 
