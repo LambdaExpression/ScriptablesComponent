@@ -8,22 +8,36 @@
 
 <div align="center">中国电信监控插件 </div>
 <br/>
-<!-- <div align="center">
-    <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/LambdaExpression/GatewayAuth?cacheSeconds=3600">
-    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/Node-v14.15.4-blue.svg" /></a>
-    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/React-17.0.2-blue.svg" /></a>
-    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/Material-5.0.4-blue.svg" /></a>
-    <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/LambdaExpression/GatewayAuth">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LambdaExpression/GatewayAuth">
-    <a href="https://codeclimate.com/github/LambdaExpression/GatewayAuth/maintainability"><img src="https://api.codeclimate.com/v1/badges/027ea75f1d5cbf0a3081/maintainability" /></a>
-</div> -->
+<div align="center">
+    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/language-node-orange.svg" /></a>
+    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/platform-ios-green.svg" /></a>
+    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/support-light|dark-hotpink.svg" /></a>
+    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/version-v1.0.0-royalblue.svg" /></a>
+  
+  
+</div>
 <br/>
 
 <br/>
 <br/>
 
 <p align="center">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3010.png">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3011.png">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3101.png">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3102.png">
 </p>
+
+### 1.点击复制下面代码
+
+```js
+const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
+await Promise.all(['ChinaTelecomMonitor.js'].map(async js => {
+  const REQ = new Request(`https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/${encodeURIComponent(js)}`);
+  const RES = await REQ.load();
+  FILE_MGR.write(FILE_MGR.joinPath(FILE_MGR.documentsDirectory(), js), RES);
+}));
+FILE_MGR.remove(module.filename);
+Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomMonitor'));
+```
+
+### 2.再手机打开 [Scriptable](scriptable:///add?scriptName=hello)，点击 ➕，粘贴，运行 ▶️
 
