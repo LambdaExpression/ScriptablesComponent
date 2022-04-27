@@ -28,9 +28,9 @@
 
 ## 介绍
 
-ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。需要配合[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)共同使用。
+ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。
 
-[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)可以通过配置电信账号密码实现自动获取话费和流量，解决cookie有效期短的痛点
+需要配合[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)共同使用。[ChinaTelecomMonitor](https://github.com/LambdaExpression/ChinaTelecomMonitor)可以通过配置电信账号密码实现自动获取话费和流量，解决cookie有效期短的痛点
 
 
 ## 安装
