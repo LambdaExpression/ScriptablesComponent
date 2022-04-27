@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/LambdaExpression/GatewayAuth">
-    <img width="150" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/logo.png">
+    <img width="150" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/logo.png">
   </a>
 </p>
 
-<h1 align="center">ChinaTelecomMonitor</h1>
+<h1 align="center">ChinaTelecomPanel</h1>
 
 <div align="center">中国电信监控插件 </div>
 <br/>
@@ -22,23 +22,31 @@
 <br/>
 
 <p align="center">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3101.png">
-  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/IMG_3102.png">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/IMG_3101.png">
+  <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/IMG_3102.png">
 </p>
 
-## 插件安装
+## 介绍
+
+ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插件。需要配合[ChinaTelecomMonitor](xxx)共同使用，[ChinaTelecomMonitor](xxx)可以通过配置电信账号密码实现自动获取话费和流量，无须反复手动获取cookie
+
+## 设置
+
+
+
+## 安装
 
 ### 1.复制下面代码
 
 ```js
 const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
-await Promise.all(['ChinaTelecomMonitor.js'].map(async js => {
+await Promise.all(['ChinaTelecomPanel.js'].map(async js => {
   const REQ = new Request(`https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/${encodeURIComponent(js)}`);
   const RES = await REQ.load();
   FILE_MGR.write(FILE_MGR.joinPath(FILE_MGR.documentsDirectory(), js), RES);
 }));
 FILE_MGR.remove(module.filename);
-Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomMonitor'));
+Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPanel'));
 ```
 
 ### 2.在手机打开 [Scriptable](scriptable:///add?scriptName=hello) ，点击 ➕，粘贴，运行 ▶️
