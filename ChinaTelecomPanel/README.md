@@ -40,7 +40,7 @@ ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插�
 ```js
 const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
 await Promise.all(['ChinaTelecomPanel.js'].map(async js => {
-  const REQ = new Request(`https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomMonitor/${encodeURIComponent(js)}`);
+  const REQ = new Request(`https://lambdaexpression.github.io/ScriptablesComponent/ChinaTelecomPanel/${encodeURIComponent(js)}`);
   const RES = await REQ.load();
   FILE_MGR.write(FILE_MGR.joinPath(FILE_MGR.documentsDirectory(), js), RES);
 }));
