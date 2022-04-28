@@ -62,3 +62,7 @@ Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPan
 ### 2.点击执行小组件，选择“地址设置”，输入保存上面的远程访问地址
 
 ### 3.点击执行小组件，选择“预览组件”->“小尺寸 Small”。测试正常后，就可以愉快的添加至桌面了。
+
+--------
+
+[原码地址](https://github.com/LambdaExpression/Scriptables/blob/v2-dev/Scripts/ChinaTelecomPanel.js)
