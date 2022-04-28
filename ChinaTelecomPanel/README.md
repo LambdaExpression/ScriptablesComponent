@@ -65,4 +65,4 @@ Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPan
 
 --------
 
-[原码地址](https://github.com/LambdaExpression/Scriptables/blob/v2-dev/Scripts/ChinaTelecomPanel.js)
+[源码地址](https://github.com/LambdaExpression/Scriptables/blob/v2-dev/Scripts/ChinaTelecomPanel.js)
