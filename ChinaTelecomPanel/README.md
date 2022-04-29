@@ -12,7 +12,7 @@
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/language-node-orange.svg" /></a>
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/platform-ios-green.svg" /></a>
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/support-light|dark-hotpink.svg" /></a>
-    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/version-v1.0.1-royalblue.svg" /></a>
+    <a href="javascript:void(0)"><img src="https://img.shields.io/badge/version-v1.0.2-royalblue.svg" /></a>
   
   
 </div>
