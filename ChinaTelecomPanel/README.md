@@ -41,7 +41,7 @@ ChinaTelecomPanel 是一个用于展示电信话费和流量使用情况的插�
 
 ### 1.复制下面其中一个源的代码
 
-**github源**
+**github国际源**
 
 ```js
 const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
@@ -54,7 +54,7 @@ FILE_MGR.remove(module.filename);
 Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPanel'));
 ```
 
-**gitee源**
+**gitee国内源**
 ```js
 const FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']();
 await Promise.all(['ChinaTelecomPanel.js'].map(async js => {
