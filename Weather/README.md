@@ -68,6 +68,7 @@ FILE_MGR.remove(module.filename);
 Safari.open("scriptable:///open?scriptName="+encodeURIComponent('Weather-Lambdaexpression.enc'));
 ```
 
+（上面列出的是“代码压缩版”，需要非压缩版本可在git仓库内自行下载）
 
 ## 设置
 
