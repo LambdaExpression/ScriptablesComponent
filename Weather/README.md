@@ -6,7 +6,7 @@
 
 <h1 align="center">Weather</h1>
 
-<div align="center">天气面板组件，使用 彩云天气api</div>
+<div align="center">天气组件，使用 彩云天气api</div>
 <br/>
 <div align="center">
     <a href="javascript:void(0)"><img src="https://img.shields.io/badge/language-node-orange.svg" /></a>
