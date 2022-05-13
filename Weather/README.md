@@ -77,6 +77,8 @@ Safari.open("scriptable:///open?scriptName="+encodeURIComponent('Weather-Lambdae
 ### 3.安装小组件，运行，点击“彩云天机token设置”，输入步骤二获取到的彩云天气令牌。点击预览测试
 ### 4.把小组件添加至桌面
 
+---------
 
+[源码地址](https://github.com/LambdaExpression/Scriptables/blob/v2-dev/Scripts/Weather-Lambdaexpression.js)
 
 
