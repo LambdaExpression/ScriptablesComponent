@@ -26,8 +26,6 @@
   <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/Weather/weather04.png">
 </p>
 
-# 近期完成上线
-
 ## 介绍
 
 Weather 小组件是使用 彩云天气api 获取天气信息
