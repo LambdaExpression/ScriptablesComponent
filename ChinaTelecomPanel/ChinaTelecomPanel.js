@@ -1,8 +1,1359 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: orange; icon-glyph: comments;
-// Dist/ChinaTelecomPanel.js
+// Variables used by Scriptable.
+// These must be at the very top of the file. Do not edit.
+// icon-color: deep-gray; icon-glyph: code-branch;
+// 
+// name: ChinaTelecomPanel.js
 // https://github.com/LambdaExpression/Scriptables
-// hash: mv3nrk397s1qbgtoyq
-// version: v1.0.2
-const _0x2fb5f1=_0x2a3f,_0x130fb4=_0x3f65;(function(_0x10efef,_0x5882ba){const _0x2098af=_0x2a3f,_0x457bcc=_0x3f65,_0x2247fa=_0x10efef();while(!![]){try{const _0x4ad59b=-parseInt(_0x457bcc(0x172))/0x1*(parseInt(_0x2098af(0x1b4,'@uHp'))/0x2)+-parseInt(_0x457bcc(0x164))/0x3*(parseInt(_0x2098af(0x14d,'vcIb'))/0x4)+-parseInt(_0x457bcc(0x159))/0x5+parseInt(_0x457bcc(0x1f7))/0x6*(parseInt(_0x2098af(0xb5,'s#lt'))/0x7)+-parseInt(_0x2098af(0x1ef,'vcIb'))/0x8+-parseInt(_0x2098af(0x1cc,'5k(f'))/0x9*(parseInt(_0x2098af(0x10e,'Kz#z'))/0xa)+parseInt(_0x457bcc(0x1dd))/0xb*(parseInt(_0x457bcc(0x137))/0xc);if(_0x4ad59b===_0x5882ba)break;else _0x2247fa['push'](_0x2247fa['shift']());}catch(_0x67c709){_0x2247fa['push'](_0x2247fa['shift']());}}}(_0x3390,0xd290e));const _0x27f716=(function(){let _0x33e1b3=!![];return function(_0x59125c,_0x29c36d){const _0x54c139=_0x33e1b3?function(){const _0x56b17d=_0x2a3f;if(_0x29c36d){const _0x33b930=_0x29c36d[_0x56b17d(0x195,'T86F')](_0x59125c,arguments);return _0x29c36d=null,_0x33b930;}}:function(){};return _0x33e1b3=![],_0x54c139;};}()),_0x20ddde=_0x27f716(this,function(){const _0xf459b9=_0x2a3f,_0x220bf3=_0x3f65;return _0x20ddde[_0x220bf3(0xa6)]()[_0x220bf3(0xed)](_0xf459b9(0x83,'fLM0'))[_0xf459b9(0x1e7,'Glu7')]()[_0x220bf3(0x141)](_0x20ddde)[_0x220bf3(0xed)](_0xf459b9(0x77,'rB@^'));});function _0x3f65(_0x4306bc,_0x3a38ed){const _0x4cbd9f=_0x3390();return _0x3f65=function(_0x20ddde,_0x27f716){_0x20ddde=_0x20ddde-0x6f;let _0x339098=_0x4cbd9f[_0x20ddde];if(_0x3f65['PZXcPD']===undefined){var _0x2a3fa4=function(_0x47d21d){const _0x1898eb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x297407='',_0x3f65c9='',_0x565d28=_0x297407+_0x2a3fa4;for(let _0x21f726=0x0,_0x54c655,_0x1d80cd,_0x51eb97=0x0;_0x1d80cd=_0x47d21d['charAt'](_0x51eb97++);~_0x1d80cd&&(_0x54c655=_0x21f726%0x4?_0x54c655*0x40+_0x1d80cd:_0x1d80cd,_0x21f726++%0x4)?_0x297407+=_0x565d28['charCodeAt'](_0x51eb97+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x54c655>>(-0x2*_0x21f726&0x6)):_0x21f726:0x0){_0x1d80cd=_0x1898eb['indexOf'](_0x1d80cd);}for(let _0x3e4919=0x0,_0x33e1b3=_0x297407['length'];_0x3e4919<_0x33e1b3;_0x3e4919++){_0x3f65c9+='%'+('00'+_0x297407['charCodeAt'](_0x3e4919)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3f65c9);};_0x3f65['ZwkriT']=_0x2a3fa4,_0x4306bc=arguments,_0x3f65['PZXcPD']=!![];}const _0x2e288c=_0x4cbd9f[0x0],_0x48c7e1=_0x20ddde+_0x2e288c,_0x334b99=_0x4306bc[_0x48c7e1];if(!_0x334b99){const _0x59125c=function(_0x29c36d){this['KheDXQ']=_0x29c36d,this['ueCADe']=[0x1,0x0,0x0],this['qvFDhl']=function(){return'newState';},this['rnsriP']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['gWCjvM']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x59125c['prototype']['TlmhtW']=function(){const _0x54c139=new RegExp(this['rnsriP']+this['gWCjvM']),_0x33b930=_0x54c139['test'](this['qvFDhl']['toString']())?--this['ueCADe'][0x1]:--this['ueCADe'][0x0];return this['hDbyFq'](_0x33b930);},_0x59125c['prototype']['hDbyFq']=function(_0x3d056d){if(!Boolean(~_0x3d056d))return _0x3d056d;return this['ZQdhoT'](this['KheDXQ']);},_0x59125c['prototype']['ZQdhoT']=function(_0x1f7b26){for(let _0x621669=0x0,_0x2e6e62=this['ueCADe']['length'];_0x621669<_0x2e6e62;_0x621669++){this['ueCADe']['push'](Math['round'](Math['random']())),_0x2e6e62=this['ueCADe']['length'];}return _0x1f7b26(this['ueCADe'][0x0]);},new _0x59125c(_0x3f65)['TlmhtW'](),_0x339098=_0x3f65['ZwkriT'](_0x339098),_0x4306bc[_0x48c7e1]=_0x339098;}else _0x339098=_0x334b99;return _0x339098;},_0x3f65(_0x4306bc,_0x3a38ed);}function _0x2a3f(_0x4306bc,_0x3a38ed){const _0x4cbd9f=_0x3390();return _0x2a3f=function(_0x20ddde,_0x27f716){_0x20ddde=_0x20ddde-0x6f;let _0x339098=_0x4cbd9f[_0x20ddde];if(_0x2a3f['ROxywh']===undefined){var _0x2a3fa4=function(_0x1898eb){const _0x297407='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3f65c9='',_0x565d28='',_0x21f726=_0x3f65c9+_0x2a3fa4;for(let _0x54c655=0x0,_0x1d80cd,_0x51eb97,_0x3e4919=0x0;_0x51eb97=_0x1898eb['charAt'](_0x3e4919++);~_0x51eb97&&(_0x1d80cd=_0x54c655%0x4?_0x1d80cd*0x40+_0x51eb97:_0x51eb97,_0x54c655++%0x4)?_0x3f65c9+=_0x21f726['charCodeAt'](_0x3e4919+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x1d80cd>>(-0x2*_0x54c655&0x6)):_0x54c655:0x0){_0x51eb97=_0x297407['indexOf'](_0x51eb97);}for(let _0x33e1b3=0x0,_0x59125c=_0x3f65c9['length'];_0x33e1b3<_0x59125c;_0x33e1b3++){_0x565d28+='%'+('00'+_0x3f65c9['charCodeAt'](_0x33e1b3)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x565d28);};const _0x47d21d=function(_0x29c36d,_0x54c139){let _0x33b930=[],_0x3d056d=0x0,_0x1f7b26,_0x621669='';_0x29c36d=_0x2a3fa4(_0x29c36d);let _0x2e6e62;for(_0x2e6e62=0x0;_0x2e6e62<0x100;_0x2e6e62++){_0x33b930[_0x2e6e62]=_0x2e6e62;}for(_0x2e6e62=0x0;_0x2e6e62<0x100;_0x2e6e62++){_0x3d056d=(_0x3d056d+_0x33b930[_0x2e6e62]+_0x54c139['charCodeAt'](_0x2e6e62%_0x54c139['length']))%0x100,_0x1f7b26=_0x33b930[_0x2e6e62],_0x33b930[_0x2e6e62]=_0x33b930[_0x3d056d],_0x33b930[_0x3d056d]=_0x1f7b26;}_0x2e6e62=0x0,_0x3d056d=0x0;for(let _0x4dad49=0x0;_0x4dad49<_0x29c36d['length'];_0x4dad49++){_0x2e6e62=(_0x2e6e62+0x1)%0x100,_0x3d056d=(_0x3d056d+_0x33b930[_0x2e6e62])%0x100,_0x1f7b26=_0x33b930[_0x2e6e62],_0x33b930[_0x2e6e62]=_0x33b930[_0x3d056d],_0x33b930[_0x3d056d]=_0x1f7b26,_0x621669+=String['fromCharCode'](_0x29c36d['charCodeAt'](_0x4dad49)^_0x33b930[(_0x33b930[_0x2e6e62]+_0x33b930[_0x3d056d])%0x100]);}return _0x621669;};_0x2a3f['OoKNKc']=_0x47d21d,_0x4306bc=arguments,_0x2a3f['ROxywh']=!![];}const _0x2e288c=_0x4cbd9f[0x0],_0x48c7e1=_0x20ddde+_0x2e288c,_0x334b99=_0x4306bc[_0x48c7e1];if(!_0x334b99){if(_0x2a3f['AmfrvX']===undefined){const _0x154b64=function(_0x5a59f4){this['EVaUjf']=_0x5a59f4,this['jKoqUK']=[0x1,0x0,0x0],this['VyhjjP']=function(){return'newState';},this['UnmvYh']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['bvEiJW']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x154b64['prototype']['qRMzTK']=function(){const _0x84f005=new RegExp(this['UnmvYh']+this['bvEiJW']),_0x3ef8d3=_0x84f005['test'](this['VyhjjP']['toString']())?--this['jKoqUK'][0x1]:--this['jKoqUK'][0x0];return this['xqWEIF'](_0x3ef8d3);},_0x154b64['prototype']['xqWEIF']=function(_0x105889){if(!Boolean(~_0x105889))return _0x105889;return this['YZGdPy'](this['EVaUjf']);},_0x154b64['prototype']['YZGdPy']=function(_0x4b2fb4){for(let _0x373da2=0x0,_0x19dc43=this['jKoqUK']['length'];_0x373da2<_0x19dc43;_0x373da2++){this['jKoqUK']['push'](Math['round'](Math['random']())),_0x19dc43=this['jKoqUK']['length'];}return _0x4b2fb4(this['jKoqUK'][0x0]);},new _0x154b64(_0x2a3f)['qRMzTK'](),_0x2a3f['AmfrvX']=!![];}_0x339098=_0x2a3f['OoKNKc'](_0x339098,_0x27f716),_0x4306bc[_0x48c7e1]=_0x339098;}else _0x339098=_0x334b99;return _0x339098;},_0x2a3f(_0x4306bc,_0x3a38ed);}_0x20ddde();const RUNTIME_VERSION=0x1343ef9;class Base{constructor(_0x3d056d=''){const _0x55905d=_0x3f65,_0x67995b=_0x2a3f;this['arg']=_0x3d056d,this[_0x67995b(0x1e9,'AoC%')]={},this[_0x55905d(0x1a5)]();}[_0x130fb4(0x1a5)](_0x1f7b26=config['widgetFamily']){const _0x280053=_0x2a3f,_0x5a755d=_0x130fb4;this['widgetFamily']=_0x1f7b26,this[_0x5a755d(0x1d1)]=this[_0x5a755d(0xb8)](Script[_0x280053(0x124,'L4qm')]()),this[_0x280053(0x133,'EF@x')]=FileManager[module[_0x5a755d(0x94)][_0x5a755d(0x194)](_0x5a755d(0xc2))?_0x280053(0x15f,'Lh9d'):_0x280053(0x85,'rB@^')](),this[_0x5a755d(0x15d)]=FileManager[_0x5a755d(0xff)](),this['BACKGROUND_KEY']=this['FILE_MGR_LOCAL'][_0x280053(0x9a,'qrq7')](this[_0x5a755d(0x15d)][_0x280053(0x1bd,'[LQT')](),_0x5a755d(0x1a4)+this[_0x5a755d(0x1d1)]+_0x280053(0xc8,'ju^R')),this[_0x5a755d(0x162)]=this[_0x5a755d(0x20c)]();}['registerAction'](_0x621669,_0x2e6e62){const _0x531f37=_0x2a3f,_0x162231=_0x130fb4;this[_0x162231(0x183)][_0x621669]=_0x2e6e62[_0x531f37(0x18b,'EF@x')](this);}[_0x2fb5f1(0x201,'Kz#z')](_0x4dad49='',_0x154b64=''){const _0x32c12d=_0x2fb5f1,_0x4855b8=_0x130fb4;let _0x5a59f4=URLScheme['forRunningScript'](),_0x84f005=_0x4855b8(0x178)+encodeURIComponent(_0x4dad49)+_0x4855b8(0x209)+encodeURIComponent(_0x154b64)+'&__arg='+encodeURIComponent(this[_0x4855b8(0x119)])+_0x4855b8(0x1db)+this[_0x32c12d(0x145,'OE1v')],_0x3ef8d3='';return _0x5a59f4[_0x32c12d(0x95,'nx9k')](_0x4855b8(0x1ee))?_0x3ef8d3=_0x5a59f4+'&'+_0x84f005:_0x3ef8d3=_0x5a59f4+'?'+_0x84f005,_0x3ef8d3;}[_0x130fb4(0x108)](_0x105889){const _0x51b013=_0x2fb5f1,_0x4b2fb4=Data[_0x51b013(0x1f6,'MBRE')](_0x105889);return _0x4b2fb4['toBase64String']();}['base64Decode'](_0x373da2){const _0x3e4376=_0x2fb5f1,_0x9b167e=_0x130fb4,_0x19dc43=Data[_0x9b167e(0x161)](_0x373da2);return _0x19dc43[_0x3e4376(0xdf,'PY70')]();}[_0x130fb4(0xb8)](_0x1a0648){function _0x1c025a(_0x542925,_0x4abab2){var _0x144d01=(0xffff&_0x542925)+(0xffff&_0x4abab2);return(_0x542925>>0x10)+(_0x4abab2>>0x10)+(_0x144d01>>0x10)<<0x10|0xffff&_0x144d01;}function _0x1c4134(_0x383f4b,_0x1affcd,_0x1907e7,_0x325bdb,_0xa6d236,_0x4d43bb){return _0x1c025a((_0x31136b=_0x1c025a(_0x1c025a(_0x1affcd,_0x383f4b),_0x1c025a(_0x325bdb,_0x4d43bb)))<<(_0x14193c=_0xa6d236)|_0x31136b>>>0x20-_0x14193c,_0x1907e7);var _0x31136b,_0x14193c;}function _0x172dc7(_0x460600,_0x5f0a8f,_0x5e2adc,_0x476b76,_0x35e1b1,_0x50faa2,_0x16aec3){return _0x1c4134(_0x5f0a8f&_0x5e2adc|~_0x5f0a8f&_0x476b76,_0x460600,_0x5f0a8f,_0x35e1b1,_0x50faa2,_0x16aec3);}function _0x4f689e(_0x4ef97f,_0x2145f2,_0x523549,_0x47e9af,_0xfe7855,_0x1375ba,_0x45449f){return _0x1c4134(_0x2145f2&_0x47e9af|_0x523549&~_0x47e9af,_0x4ef97f,_0x2145f2,_0xfe7855,_0x1375ba,_0x45449f);}function _0x3d3469(_0x5070d4,_0x5e784f,_0x482642,_0x346ad7,_0x30da94,_0x4f616e,_0x11cb60){return _0x1c4134(_0x5e784f^_0x482642^_0x346ad7,_0x5070d4,_0x5e784f,_0x30da94,_0x4f616e,_0x11cb60);}function _0x1b4b8f(_0x1e0dd3,_0x4728b4,_0x138086,_0x3fb1f3,_0x2dc808,_0x4fd99b,_0x3414ea){return _0x1c4134(_0x138086^(_0x4728b4|~_0x3fb1f3),_0x1e0dd3,_0x4728b4,_0x2dc808,_0x4fd99b,_0x3414ea);}function _0x12613c(_0x54f215,_0x40f64f){const _0x1344ba=_0x3f65;var _0x410601,_0x52b6fc,_0x487b56,_0x9cec96;_0x54f215[_0x40f64f>>0x5]|=0x80<<_0x40f64f%0x20,_0x54f215[0xe+(_0x40f64f+0x40>>>0x9<<0x4)]=_0x40f64f;for(var _0x2f4929=0x67452301,_0x55ef48=-0x10325477,_0x204c28=-0x67452302,_0x1e673d=0x10325476,_0x1585ed=0x0;_0x1585ed<_0x54f215[_0x1344ba(0x1a1)];_0x1585ed+=0x10)_0x2f4929=_0x172dc7(_0x410601=_0x2f4929,_0x52b6fc=_0x55ef48,_0x487b56=_0x204c28,_0x9cec96=_0x1e673d,_0x54f215[_0x1585ed],0x7,-0x28955b88),_0x1e673d=_0x172dc7(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x1],0xc,-0x173848aa),_0x204c28=_0x172dc7(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x2],0x11,0x242070db),_0x55ef48=_0x172dc7(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x3],0x16,-0x3e423112),_0x2f4929=_0x172dc7(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x4],0x7,-0xa83f051),_0x1e673d=_0x172dc7(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x5],0xc,0x4787c62a),_0x204c28=_0x172dc7(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x6],0x11,-0x57cfb9ed),_0x55ef48=_0x172dc7(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x7],0x16,-0x2b96aff),_0x2f4929=_0x172dc7(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x8],0x7,0x698098d8),_0x1e673d=_0x172dc7(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x9],0xc,-0x74bb0851),_0x204c28=_0x172dc7(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xa],0x11,-0xa44f),_0x55ef48=_0x172dc7(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xb],0x16,-0x76a32842),_0x2f4929=_0x172dc7(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0xc],0x7,0x6b901122),_0x1e673d=_0x172dc7(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xd],0xc,-0x2678e6d),_0x204c28=_0x172dc7(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xe],0x11,-0x5986bc72),_0x2f4929=_0x4f689e(_0x2f4929,_0x55ef48=_0x172dc7(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xf],0x16,0x49b40821),_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x1],0x5,-0x9e1da9e),_0x1e673d=_0x4f689e(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x6],0x9,-0x3fbf4cc0),_0x204c28=_0x4f689e(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xb],0xe,0x265e5a51),_0x55ef48=_0x4f689e(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed],0x14,-0x16493856),_0x2f4929=_0x4f689e(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x5],0x5,-0x29d0efa3),_0x1e673d=_0x4f689e(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xa],0x9,0x2441453),_0x204c28=_0x4f689e(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xf],0xe,-0x275e197f),_0x55ef48=_0x4f689e(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x4],0x14,-0x182c0438),_0x2f4929=_0x4f689e(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x9],0x5,0x21e1cde6),_0x1e673d=_0x4f689e(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xe],0x9,-0x3cc8f82a),_0x204c28=_0x4f689e(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x3],0xe,-0xb2af279),_0x55ef48=_0x4f689e(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x8],0x14,0x455a14ed),_0x2f4929=_0x4f689e(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0xd],0x5,-0x561c16fb),_0x1e673d=_0x4f689e(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x2],0x9,-0x3105c08),_0x204c28=_0x4f689e(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x7],0xe,0x676f02d9),_0x2f4929=_0x3d3469(_0x2f4929,_0x55ef48=_0x4f689e(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xc],0x14,-0x72d5b376),_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x5],0x4,-0x5c6be),_0x1e673d=_0x3d3469(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x8],0xb,-0x788e097f),_0x204c28=_0x3d3469(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xb],0x10,0x6d9d6122),_0x55ef48=_0x3d3469(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xe],0x17,-0x21ac7f4),_0x2f4929=_0x3d3469(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x1],0x4,-0x5b4115bc),_0x1e673d=_0x3d3469(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x4],0xb,0x4bdecfa9),_0x204c28=_0x3d3469(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x7],0x10,-0x944b4a0),_0x55ef48=_0x3d3469(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xa],0x17,-0x41404390),_0x2f4929=_0x3d3469(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0xd],0x4,0x289b7ec6),_0x1e673d=_0x3d3469(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed],0xb,-0x155ed806),_0x204c28=_0x3d3469(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x3],0x10,-0x2b10cf7b),_0x55ef48=_0x3d3469(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x6],0x17,0x4881d05),_0x2f4929=_0x3d3469(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x9],0x4,-0x262b2fc7),_0x1e673d=_0x3d3469(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xc],0xb,-0x1924661b),_0x204c28=_0x3d3469(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xf],0x10,0x1fa27cf8),_0x2f4929=_0x1b4b8f(_0x2f4929,_0x55ef48=_0x3d3469(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x2],0x17,-0x3b53a99b),_0x204c28,_0x1e673d,_0x54f215[_0x1585ed],0x6,-0xbd6ddbc),_0x1e673d=_0x1b4b8f(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x7],0xa,0x432aff97),_0x204c28=_0x1b4b8f(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xe],0xf,-0x546bdc59),_0x55ef48=_0x1b4b8f(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x5],0x15,-0x36c5fc7),_0x2f4929=_0x1b4b8f(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0xc],0x6,0x655b59c3),_0x1e673d=_0x1b4b8f(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0x3],0xa,-0x70f3336e),_0x204c28=_0x1b4b8f(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0xa],0xf,-0x100b83),_0x55ef48=_0x1b4b8f(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x1],0x15,-0x7a7ba22f),_0x2f4929=_0x1b4b8f(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x8],0x6,0x6fa87e4f),_0x1e673d=_0x1b4b8f(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xf],0xa,-0x1d31920),_0x204c28=_0x1b4b8f(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x6],0xf,-0x5cfebcec),_0x55ef48=_0x1b4b8f(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0xd],0x15,0x4e0811a1),_0x2f4929=_0x1b4b8f(_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d,_0x54f215[_0x1585ed+0x4],0x6,-0x8ac817e),_0x1e673d=_0x1b4b8f(_0x1e673d,_0x2f4929,_0x55ef48,_0x204c28,_0x54f215[_0x1585ed+0xb],0xa,-0x42c50dcb),_0x204c28=_0x1b4b8f(_0x204c28,_0x1e673d,_0x2f4929,_0x55ef48,_0x54f215[_0x1585ed+0x2],0xf,0x2ad7d2bb),_0x55ef48=_0x1b4b8f(_0x55ef48,_0x204c28,_0x1e673d,_0x2f4929,_0x54f215[_0x1585ed+0x9],0x15,-0x14792c6f),_0x2f4929=_0x1c025a(_0x2f4929,_0x410601),_0x55ef48=_0x1c025a(_0x55ef48,_0x52b6fc),_0x204c28=_0x1c025a(_0x204c28,_0x487b56),_0x1e673d=_0x1c025a(_0x1e673d,_0x9cec96);return[_0x2f4929,_0x55ef48,_0x204c28,_0x1e673d];}function _0x1d3af3(_0x12ce08){const _0x6fe9dc=_0x2a3f,_0x13ec7f=_0x3f65;for(var _0x58bcf1='',_0x42325a=0x20*_0x12ce08[_0x13ec7f(0x1a1)],_0x2d3c0c=0x0;_0x2d3c0c<_0x42325a;_0x2d3c0c+=0x8)_0x58bcf1+=String[_0x6fe9dc(0x106,']kL9')](_0x12ce08[_0x2d3c0c>>0x5]>>>_0x2d3c0c%0x20&0xff);return _0x58bcf1;}function _0x108b7a(_0x5c422b){const _0x1b9fa7=_0x3f65;var _0x1a65bc=[];for(_0x1a65bc[(_0x5c422b[_0x1b9fa7(0x1a1)]>>0x2)-0x1]=void 0x0,_0x54d8d5=0x0;_0x54d8d5<_0x1a65bc['length'];_0x54d8d5+=0x1)_0x1a65bc[_0x54d8d5]=0x0;for(var _0x14218a=0x8*_0x5c422b[_0x1b9fa7(0x1a1)],_0x54d8d5=0x0;_0x54d8d5<_0x14218a;_0x54d8d5+=0x8)_0x1a65bc[_0x54d8d5>>0x5]|=(0xff&_0x5c422b[_0x1b9fa7(0xf6)](_0x54d8d5/0x8))<<_0x54d8d5%0x20;return _0x1a65bc;}function _0x3bc7e8(_0x3e0e94){const _0xe9dca3=_0x2a3f,_0x20b61b=_0x3f65;for(var _0x3bcb0c,_0x330456='0123456789abcdef',_0x1553fd='',_0x143626=0x0;_0x143626<_0x3e0e94[_0x20b61b(0x1a1)];_0x143626+=0x1)_0x3bcb0c=_0x3e0e94[_0xe9dca3(0xa9,'s#lt')](_0x143626),_0x1553fd+=_0x330456[_0x20b61b(0x9b)](_0x3bcb0c>>>0x4&0xf)+_0x330456[_0xe9dca3(0x11b,'PiCE')](0xf&_0x3bcb0c);return _0x1553fd;}function _0x411344(_0x38e1f0){return unescape(encodeURIComponent(_0x38e1f0));}function _0x359d72(_0x4d7ea3){return _0x1d3af3(_0x12613c(_0x108b7a(_0xd92c62=_0x411344(_0x4d7ea3)),0x8*_0xd92c62['length']));var _0xd92c62;}function _0x199395(_0x35ca45,_0x4d241f){return function(_0x5b59fd,_0x463b26){const _0x4e4273=_0x3f65,_0x41c94a=_0x2a3f;var _0x567b27,_0x2a0bfb,_0x546326=_0x108b7a(_0x5b59fd),_0x54255b=[],_0x10a2c8=[];for(_0x54255b[0xf]=_0x10a2c8[0xf]=void 0x0,0x10<_0x546326['length']&&(_0x546326=_0x12613c(_0x546326,0x8*_0x5b59fd[_0x41c94a(0xa4,'L9MN')])),_0x567b27=0x0;_0x567b27<0x10;_0x567b27+=0x1)_0x54255b[_0x567b27]=0x36363636^_0x546326[_0x567b27],_0x10a2c8[_0x567b27]=0x5c5c5c5c^_0x546326[_0x567b27];return _0x2a0bfb=_0x12613c(_0x54255b[_0x4e4273(0xac)](_0x108b7a(_0x463b26)),0x200+0x8*_0x463b26[_0x41c94a(0x11c,'PiCE')]),_0x1d3af3(_0x12613c(_0x10a2c8[_0x4e4273(0xac)](_0x2a0bfb),0x280));}(_0x411344(_0x35ca45),_0x411344(_0x4d241f));}function _0x23332e(_0x49a6eb,_0x4700db,_0x293c1c){return _0x4700db?_0x293c1c?_0x199395(_0x4700db,_0x49a6eb):_0x3bc7e8(_0x199395(_0x4700db,_0x49a6eb)):_0x293c1c?_0x359d72(_0x49a6eb):_0x3bc7e8(_0x359d72(_0x49a6eb));}return _0x23332e(_0x1a0648);}async[_0x2fb5f1(0x20e,']kL9')](_0x260c40,_0x2f4081=!![],_0x34ebee=![]){const _0x203f77=_0x2fb5f1,_0x2a8ba5=_0x130fb4;let _0x3aea44=null;const _0x23423e=this['md5'](_0x260c40);if(_0x34ebee&&Keychain['contains'](_0x23423e)){let _0x49aad4=Keychain[_0x2a8ba5(0x8e)](_0x23423e);return _0x2f4081?JSON[_0x203f77(0x187,'c2rN')](_0x49aad4):_0x49aad4;}try{let _0x1c9481=new Request(_0x260c40);_0x3aea44=await(_0x2f4081?_0x1c9481[_0x2a8ba5(0x1f1)]():_0x1c9481[_0x203f77(0x1cb,'^PZp')]());}catch(_0x10fec2){}if(!_0x3aea44&&Keychain[_0x2a8ba5(0x1d4)](_0x23423e)){let _0x443087=Keychain[_0x2a8ba5(0x8e)](_0x23423e);return _0x2f4081?JSON[_0x2a8ba5(0x105)](_0x443087):_0x443087;}return Keychain[_0x203f77(0x1c1,']kL9')](_0x23423e,_0x2f4081?JSON[_0x2a8ba5(0x16d)](_0x3aea44):_0x3aea44),_0x3aea44;}async[_0x130fb4(0x1a7)](_0x134eed,_0x5d6da4){}async[_0x2fb5f1(0x80,'EF@x')](_0x1b1985,_0x323e5d=!![]){const _0x564736=_0x2fb5f1,_0x2b7618=_0x130fb4,_0x2ac4a0=this[_0x2b7618(0xb8)](_0x1b1985),_0x2f9026=FileManager['local']()['joinPath'](FileManager[_0x2b7618(0xff)]()[_0x2b7618(0x1aa)](),_0x2ac4a0);if(_0x323e5d&&FileManager[_0x2b7618(0xff)]()[_0x2b7618(0xe6)](_0x2f9026))return Image[_0x2b7618(0x18c)](_0x2f9026);try{const _0x3f6662=new Request(_0x1b1985),_0x115006=await _0x3f6662[_0x2b7618(0x1ce)]();return FileManager['local']()[_0x564736(0x18e,'c2rN')](_0x2f9026,_0x115006),_0x115006;}catch(_0xfa235e){let _0x24d6d7=new DrawContext();return _0x24d6d7[_0x2b7618(0xe9)]=new Size(0x64,0x64),_0x24d6d7[_0x2b7618(0xf2)](Color[_0x564736(0x1d8,'^PZp')]()),_0x24d6d7[_0x2b7618(0xdd)](new Rect(0x0,0x0,0x64,0x64)),await _0x24d6d7['getImage']();}}async[_0x130fb4(0x132)](_0x12baae,_0x55ea08,_0x14e945,_0x4fac3d=![]){const _0x4a7629=_0x2fb5f1,_0x204e92=_0x130fb4;_0x12baae[_0x204e92(0xa5)](0xa);let _0x2befea=_0x12baae['addStack']();_0x2befea[_0x4a7629(0x131,'jJFu')]();let _0x1772d8=_0x2befea[_0x4a7629(0xbd,'c2rN')](await this[_0x4a7629(0xe1,'@uHp')](_0x55ea08));_0x1772d8[_0x204e92(0x81)]=new Size(0xe,0xe),_0x1772d8['cornerRadius']=0x4,_0x2befea[_0x4a7629(0x205,'H$ol')](0xa);let _0x161fde=_0x2befea[_0x4a7629(0x113,'@uHp')](_0x14e945);if(_0x4fac3d)_0x161fde[_0x4a7629(0x12f,'vcIb')]=_0x4fac3d;return _0x161fde[_0x204e92(0x16e)]=0.7,_0x161fde[_0x4a7629(0x147,'XK]t')]=Font[_0x4a7629(0x177,'BfrT')](0xc),_0x12baae['addSpacer'](0xa),_0x12baae;}async['getWidgetScreenShot'](_0x37a8ee=null){const _0x334732=_0x130fb4,_0x99fe93=_0x2fb5f1;async function _0x421484(_0x1587e3,_0x2add43){const _0x31d320=_0x3f65,_0x28fbc1=_0x2a3f;let _0x4638da=new Alert();_0x4638da[_0x28fbc1(0x104,'[axV')]=_0x1587e3;for(const _0x57ac17 of _0x2add43){_0x4638da['addAction'](_0x57ac17);}let _0x56f75d=await _0x4638da[_0x31d320(0x171)]();return _0x56f75d;}function _0x296b9d(_0xc68ff3,_0x2857bc){const _0x2eb291=_0x2a3f,_0x47199c=_0x3f65;let _0x6b34a2=new DrawContext();return _0x6b34a2[_0x47199c(0xe9)]=new Size(_0x2857bc[_0x47199c(0x1fc)],_0x2857bc['height']),_0x6b34a2[_0x47199c(0x1be)](_0xc68ff3,new Point(-_0x2857bc['x'],-_0x2857bc['y'])),_0x6b34a2[_0x2eb291(0x12a,'Glu7')]();}async function _0x17814c(_0x4425db,_0x2db0b6){const _0x46dcf0=_0x2a3f,_0x5e39c7=_0x3f65,_0x572dce=0x96,_0x3598ab=_0x5e39c7(0x10a)+_0x2db0b6+'\x22\x20==\x20\x22dark\x22;\x0a\x20\x20\x20\x20\x20\x20var\x20imageFunc\x20=\x20isDark\x20?\x20darkBlur\x20:\x20lightBlur;\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20for\x20(let\x20i=0;\x20i\x20<\x20pix.length;\x20i+=4)\x20{\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Convert\x20to\x20HSL.\x0a\x20\x20\x20\x20\x20\x20\x20\x20let\x20hsl\x20=\x20rgbToHsl(pix[i],pix[i+1],pix[i+2]);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Apply\x20the\x20image\x20function.\x0a\x20\x20\x20\x20\x20\x20\x20\x20hsl\x20=\x20imageFunc(hsl);\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Convert\x20back\x20to\x20RGB.\x0a\x20\x20\x20\x20\x20\x20\x20\x20const\x20rgb\x20=\x20hslToRgb(hsl[0],\x20hsl[1],\x20hsl[2]);\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Put\x20the\x20values\x20back\x20into\x20the\x20data.\x0a\x20\x20\x20\x20\x20\x20\x20\x20pix[i]\x20=\x20rgb[0];\x0a\x20\x20\x20\x20\x20\x20\x20\x20pix[i+1]\x20=\x20rgb[1];\x0a\x20\x20\x20\x20\x20\x20\x20\x20pix[i+2]\x20=\x20rgb[2];\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20//\x20Draw\x20over\x20the\x20old\x20image.\x0a\x20\x20\x20\x20\x20\x20context.putImageData(imageData,0,0);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20//\x20Blur\x20the\x20image.\x0a\x20\x20\x20\x20\x20\x20stackBlurCanvasRGB(\x22mainCanvas\x22,\x200,\x200,\x20w,\x20h,\x20'+_0x572dce+');\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20//\x20Perform\x20the\x20additional\x20processing\x20for\x20dark\x20images.\x0a\x20\x20\x20\x20\x20\x20if\x20(isDark)\x20{\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Draw\x20the\x20hard\x20light\x20box\x20over\x20it.\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.globalCompositeOperation\x20=\x20\x22hard-light\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillStyle\x20=\x20\x22rgba(55,55,55,0.2)\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillRect(0,\x200,\x20w,\x20h);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Draw\x20the\x20soft\x20light\x20box\x20over\x20it.\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.globalCompositeOperation\x20=\x20\x22soft-light\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillStyle\x20=\x20\x22rgba(55,55,55,1)\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillRect(0,\x200,\x20w,\x20h);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20Draw\x20the\x20regular\x20box\x20over\x20it.\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.globalCompositeOperation\x20=\x20\x22source-over\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillStyle\x20=\x20\x22rgba(55,55,55,0.4)\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillRect(0,\x200,\x20w,\x20h);\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20//\x20Otherwise\x20process\x20light\x20images.\x0a\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillStyle\x20=\x20\x22rgba(255,255,255,0.4)\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20context.fillRect(0,\x200,\x20w,\x20h);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20//\x20Return\x20a\x20base64\x20representation.\x0a\x20\x20\x20\x20\x20\x20canvas.toDataURL();\x20\x0a\x20\x20\x20\x20\x20\x20';let _0x203839=Data['fromPNG'](_0x4425db)['toBase64String'](),_0x49b493=_0x5e39c7(0x72)+_0x203839+_0x5e39c7(0x1ea),_0x500869=new WebView();await _0x500869[_0x5e39c7(0x200)](_0x49b493);let _0x58a8f0=await _0x500869[_0x46dcf0(0xc3,'ZS4h')](_0x3598ab),_0x5ed606=_0x58a8f0[_0x46dcf0(0xe7,'c2rN')](0x16),_0x5c7e69=Data[_0x46dcf0(0x12c,'BfrT')](_0x5ed606),_0x15d934=Image['fromData'](_0x5c7e69);return _0x15d934;}function _0x4f77ab(){let _0x1bb345={'2532':{'small':0x1da,'medium':0x3f6,'large':0x426,'left':0x4e,'right':0x26a,'top':0xe7,'middle':0x333,'bottom':0x57f},'2688':{'small':0x1fb,'medium':0x438,'large':0x471,'left':0x51,'right':0x28e,'top':0xe4,'middle':0x35a,'bottom':0x5d0},'1792':{'small':0x152,'medium':0x2d0,'large':0x2f6,'left':0x36,'right':0x1b4,'top':0xa0,'middle':0x244,'bottom':0x3e8},'2436':{'small':0x1d1,'medium':0x3db,'large':0x40b,'left':0x45,'right':0x24f,'top':0xd5,'middle':0x30f,'bottom':0x549},'2208':{'small':0x1d7,'medium':0x414,'large':0x42f,'left':0x63,'right':0x2a0,'top':0x72,'middle':0x2b8,'bottom':0x4fe},'1334':{'small':0x128,'medium':0x282,'large':0x288,'left':0x36,'right':0x190,'top':0x3c,'middle':0x19c,'bottom':0x2fc},'1136':{'small':0x11a,'medium':0x248,'large':0x26e,'left':0x1e,'right':0x14c,'top':0x3b,'middle':0x18f,'bottom':0x18f},'1624':{'small':0x136,'medium':0x292,'large':0x2b2,'left':0x2e,'right':0x18a,'top':0x8e,'middle':0x20a,'bottom':0x386},'2001':{'small':0x1bc,'medium':0x3c3,'large':0x3cc,'left':0x51,'right':0x258,'top':0x5a,'middle':0x26a,'bottom':0x47a}};return _0x1bb345;}var _0xa29a0;_0xa29a0=_0x37a8ee||_0x99fe93(0xc5,'ZS4h');let _0x57190b=[_0x334732(0x207),_0x334732(0xee)],_0xb3c75a=await _0x421484(_0xa29a0,_0x57190b);if(_0xb3c75a)return;let _0x46a720=await Photos[_0x99fe93(0x1e1,'h0Z0')](),_0x47aa26=_0x46a720[_0x334732(0xe9)][_0x334732(0x7c)],_0x2a7ef9=_0x4f77ab()[_0x47aa26];if(!_0x2a7ef9){_0xa29a0=_0x334732(0x111);let _0x460812=await _0x421484(_0xa29a0,['帮助','取消']);if(_0x460812===0x0)Safari[_0x99fe93(0xaf,'rB@^')](_0x334732(0x11f),![]);return;}_0xa29a0=_0x334732(0xf8);let _0x417b56=[_0x99fe93(0x1f9,'PiCE'),'中尺寸','大尺寸'],_0x3e048b=await _0x421484(_0xa29a0,_0x417b56),_0x342efd=_0x417b56[_0x3e048b];_0xa29a0=_0x99fe93(0x7b,'ju^R'),_0xa29a0+=_0x47aa26==0x470?_0x334732(0xe4):'';let _0x496347={'w':'','h':'','x':'','y':''};if(_0x342efd=='小尺寸'){_0x496347['w']=_0x2a7ef9[_0x334732(0x12b)],_0x496347['h']=_0x2a7ef9[_0x99fe93(0x7f,'Glu7')];let _0x454101=['左上角',_0x334732(0x1d6),_0x99fe93(0x148,'c2rN'),_0x99fe93(0x14e,']kL9'),_0x334732(0xf1),_0x334732(0x1de)],_0x3b07cb=['Top\x20left',_0x334732(0x155),_0x99fe93(0xf0,'@uHp'),_0x99fe93(0x1f8,'PY70'),_0x99fe93(0x15a,'^PZp'),_0x99fe93(0x74,'Sp[$')],_0x4cb360=await _0x421484(_0xa29a0,_0x454101),_0x3034ec=_0x3b07cb[_0x4cb360][_0x99fe93(0x1ed,'dDab')]()[_0x334732(0x100)]('\x20');_0x496347['y']=_0x2a7ef9[_0x3034ec[0x0]],_0x496347['x']=_0x2a7ef9[_0x3034ec[0x1]];}else{if(_0x342efd==_0x334732(0x142)){_0x496347['w']=_0x2a7ef9[_0x99fe93(0x179,'ju^R')],_0x496347['h']=_0x2a7ef9[_0x99fe93(0x1e0,'nx9k')],_0x496347['x']=_0x2a7ef9[_0x99fe93(0x18f,'jJFu')];let _0x57655b=['顶部','中间','底部'],_0x19d6cf=[_0x99fe93(0x1c5,'PY70'),'Middle',_0x99fe93(0x82,'CBCu')],_0x215a92=await _0x421484(_0xa29a0,_0x57655b),_0x52de64=_0x19d6cf[_0x215a92]['toLowerCase']();_0x496347['y']=_0x2a7ef9[_0x52de64];}else{if(_0x342efd==_0x99fe93(0xcb,'@uHp')){_0x496347['w']=_0x2a7ef9['medium'],_0x496347['h']=_0x2a7ef9[_0x99fe93(0x75,']KCE')],_0x496347['x']=_0x2a7ef9[_0x334732(0x114)];let _0x4c0035=['顶部','底部'],_0x53ed1c=await _0x421484(_0xa29a0,_0x4c0035);_0x496347['y']=_0x53ed1c?_0x2a7ef9['middle']:_0x2a7ef9['top'];}}}_0xa29a0='需要给背景图片加什么显示效果？';let _0x359ba4=['透明',_0x99fe93(0x144,'L9MN'),'黑色\x20模糊'],_0x18a60f=await _0x421484(_0xa29a0,_0x359ba4);if(_0x18a60f){const _0x2f104d=_0x18a60f===0x1?_0x99fe93(0x1ac,'PiCE'):_0x334732(0xce);_0x46a720=await _0x17814c(_0x46a720,_0x2f104d);}let _0x512e47=_0x296b9d(_0x46a720,new Rect(_0x496347['x'],_0x496347['y'],_0x496347['w'],_0x496347['h']));return _0x512e47;}async[_0x2fb5f1(0x17d,'jJFu')](_0x2689fc,_0x288be8,_0xda00e1,_0x3c02a1={}){const _0x3ea9a3=_0x130fb4,_0x18a56d=_0x2fb5f1;let _0x559de5=new Notification();_0x559de5=Object[_0x18a56d(0x126,'XK]t')](_0x559de5,_0x3c02a1),_0x559de5[_0x18a56d(0x9e,'%IA]')]=_0x2689fc,_0x559de5[_0x18a56d(0x123,'[axV')]=_0x288be8;if(_0xda00e1)_0x559de5[_0x3ea9a3(0x15b)]=_0xda00e1;return await _0x559de5['schedule']();}async[_0x130fb4(0x109)](_0x411b0c,_0x5ba4d2=_0x2fb5f1(0xb4,'EF@x'),_0x3bcab9=0.7){const _0x3362f3=_0x2fb5f1,_0x1483bc=_0x130fb4;let _0x1fc6a8=new DrawContext();_0x1fc6a8[_0x1483bc(0xe9)]=_0x411b0c['size'],_0x1fc6a8[_0x3362f3(0x20a,'ZS4h')](_0x411b0c,new Rect(0x0,0x0,_0x411b0c['size']['width'],_0x411b0c['size']['height'])),_0x1fc6a8[_0x1483bc(0xf2)](new Color(_0x5ba4d2,_0x3bcab9)),_0x1fc6a8[_0x3362f3(0x135,'Glu7')](new Rect(0x0,0x0,_0x411b0c['size'][_0x1483bc(0x1fc)],_0x411b0c[_0x1483bc(0xe9)][_0x3362f3(0x1b1,'@uHp')]));let _0x3a0f1d=await _0x1fc6a8['getImage']();return _0x3a0f1d;}[_0x130fb4(0x20c)](_0x155ac4=!![]){const _0x305dd1=_0x130fb4,_0x5b39d3=_0x2fb5f1;let _0x5086b6=_0x155ac4?{}:'',_0x1909e2='';Keychain[_0x5b39d3(0x1a9,'BfrT')](this[_0x5b39d3(0x20b,'h0Z0')])&&(_0x1909e2=Keychain[_0x305dd1(0x8e)](this[_0x5b39d3(0x134,']KCE')]));if(_0x155ac4)try{_0x5086b6=JSON[_0x305dd1(0x105)](_0x1909e2);}catch(_0x386f3c){}else _0x5086b6=_0x1909e2;return _0x5086b6;}[_0x2fb5f1(0x99,'qrq7')](_0x5bc2a7=!![]){const _0x1f01cf=_0x130fb4,_0x22549e=_0x2fb5f1;let _0x209180=typeof this['settings']==='object'?JSON[_0x22549e(0xd1,'g@%[')](this[_0x1f01cf(0x162)]):String(this[_0x1f01cf(0x162)]);Keychain[_0x1f01cf(0x1e8)](this[_0x22549e(0x17f,'5k(f')],_0x209180);if(_0x5bc2a7)this[_0x22549e(0x1c3,'BfrT')](_0x22549e(0x157,'Sp[$'),_0x1f01cf(0x18a));}[_0x130fb4(0x1ca)](){const _0x423c97=_0x130fb4,_0xd3ece2=_0x2fb5f1;let _0x1fb23d=null;return this['FILE_MGR_LOCAL'][_0xd3ece2(0x129,'MBRE')](this['BACKGROUND_KEY'])&&(_0x1fb23d=Image[_0xd3ece2(0x128,'BfrT')](this[_0x423c97(0x193)])),_0x1fb23d;}[_0x130fb4(0xd8)](_0x52757c,_0x1bc00a=!![]){const _0x247fe8=_0x130fb4,_0x191317=_0x2fb5f1;if(!_0x52757c){this['FILE_MGR_LOCAL']['fileExists'](this[_0x191317(0x7e,'Glu7')])&&this['FILE_MGR_LOCAL'][_0x191317(0x1fb,'c2rN')](this[_0x191317(0x19f,'Kz#z')]);if(_0x1bc00a)this[_0x191317(0x198,'Kz#z')](_0x191317(0x115,'qrq7'),'小组件背景图片已移除，稍后刷新生效');}else{this[_0x247fe8(0x15d)][_0x191317(0x1d3,'L4qm')](this[_0x191317(0x184,'%IA]')],_0x52757c);if(_0x1bc00a)this[_0x247fe8(0x79)]('设置成功',_0x247fe8(0xb9));}}}const Running=async(_0x5df9ea,_0x28558b='')=>{const _0x1cc81b=_0x130fb4,_0x13ce5f=_0x2fb5f1;let _0xe58fb1=null;if(config[_0x13ce5f(0xc4,'$yfI')]){_0xe58fb1=new _0x5df9ea(args[_0x13ce5f(0x71,'Kz#z')]||'');const _0x381760=await _0xe58fb1[_0x1cc81b(0xc9)]();Script[_0x1cc81b(0x156)](_0x381760),Script['complete']();}else{let {act:_0x25f79c,data:_0x3b62a3,__arg:_0x11ccb0,__size:_0x94f5eb}=args[_0x13ce5f(0x9f,'BfrT')];_0xe58fb1=new _0x5df9ea(_0x11ccb0||_0x28558b||'');if(_0x94f5eb)_0xe58fb1['init'](_0x94f5eb);if(!_0x25f79c||!_0xe58fb1['_actions']){const _0x37430e=_0xe58fb1[_0x1cc81b(0x183)],_0x30f75e=[async(_0x3413f5=![])=>{const _0x46c02f=_0x13ce5f,_0x460584=_0x1cc81b;let _0x2ac5ed=new Alert();_0x2ac5ed['title']=_0x460584(0x11a),_0x2ac5ed[_0x460584(0x7a)]=_0x46c02f(0xcc,'hP()'),_0x2ac5ed['addAction'](_0x460584(0x182)),_0x2ac5ed[_0x460584(0x91)](_0x46c02f(0x101,'BfrT')),_0x2ac5ed['addAction'](_0x460584(0x19c)),_0x2ac5ed[_0x46c02f(0x118,'mEMW')](_0x460584(0x1e5)),_0x2ac5ed[_0x460584(0x1df)]('取消操作');const _0x508750=[];if(_0x3413f5){for(let _0xb3afa in _0x37430e){_0x2ac5ed[_0x46c02f(0xdc,'2RsE')](_0xb3afa),_0x508750[_0x460584(0xd6)](_0x37430e[_0xb3afa]['bind'](_0xe58fb1));}_0x2ac5ed[_0x460584(0xb2)](_0x46c02f(0xda,'qrq7'));}let _0x133ce9=await _0x2ac5ed[_0x46c02f(0x125,'XK]t')]();if(_0x133ce9===-0x1)return;let _0x34181e;switch(_0x133ce9){case 0x0:_0xe58fb1[_0x460584(0x1c8)]=_0x460584(0x12b),_0x34181e=await _0xe58fb1[_0x46c02f(0x1c7,'jJFu')](),await _0x34181e[_0x460584(0x196)]();break;case 0x1:_0xe58fb1[_0x460584(0x1c8)]=_0x46c02f(0x11d,'$yfI'),_0x34181e=await _0xe58fb1[_0x46c02f(0x93,'H5VE')](),await _0x34181e['presentMedium']();break;case 0x2:_0xe58fb1[_0x46c02f(0x1e6,'EF@x')]=_0x46c02f(0x9c,'vcIb'),_0x34181e=await _0xe58fb1['render'](),await _0x34181e['presentLarge']();break;case 0x3:_0xe58fb1[_0x460584(0x1c8)]=_0x460584(0x12b),_0x34181e=await _0xe58fb1[_0x46c02f(0x93,'H5VE')](),await _0x34181e[_0x460584(0x196)](),_0xe58fb1[_0x46c02f(0x102,'sxvP')]=_0x46c02f(0x10f,'OE1v'),_0x34181e=await _0xe58fb1['render'](),await _0x34181e['presentMedium'](),_0xe58fb1[_0x46c02f(0x18d,'jJFu')]=_0x46c02f(0x1b0,'[axV'),_0x34181e=await _0xe58fb1['render'](),await _0x34181e[_0x460584(0x1fd)]();break;default:const _0x5ab7b2=_0x508750[_0x133ce9-0x4];if(_0x5ab7b2)await _0x5ab7b2();break;}return _0x133ce9;}],_0x4a8195=new Alert();_0x4a8195[_0x1cc81b(0xd0)]=_0xe58fb1[_0x1cc81b(0x86)],_0x4a8195[_0x1cc81b(0x7a)]=_0xe58fb1['desc'],_0x4a8195[_0x1cc81b(0x91)](_0x13ce5f(0x152,'nx9k'));for(let _0x34f742 in _0x37430e){_0x4a8195['addAction'](_0x34f742),_0x30f75e[_0x13ce5f(0x13d,'dDab')](_0x37430e[_0x34f742]);}_0x4a8195[_0x13ce5f(0x1a0,'nx9k')](_0x13ce5f(0x149,'nx9k'));const _0x4b9059=await _0x4a8195['presentSheet']();if(_0x30f75e[_0x4b9059]){const _0x254414=_0x30f75e[_0x4b9059];await _0x254414();}return;}let _0x28b29b=_0x25f79c[_0x13ce5f(0x206,'fLM0')]('-')['map'](_0x263565=>_0x263565[0x0][_0x13ce5f(0x14a,'mEMW')]()+_0x263565[_0x13ce5f(0x1c6,'dL15')](0x1))['join'](''),_0x11a24f=_0x13ce5f(0x15c,'H$KF')+_0x28b29b;if(_0xe58fb1[_0x11a24f]&&typeof _0xe58fb1[_0x11a24f]===_0x1cc81b(0xef)){const _0x2c8f6e=_0xe58fb1[_0x11a24f]['bind'](_0xe58fb1);await _0x2c8f6e(_0x3b62a3);}}};function _0x3390(){const _0x2d2718=['beFcTwBdNrBcHvTAW5W','C3rYAw5NAwz5','Dgv4De9WywnPDhK','zhjHD0LTywDLsw5szwn0','Dg9gAxHLza','ChjLC2vUDefSzxj0','mJy5AfjbEfvW','DgHLBwu','W7nNW5WahHO','z2v0twLUDxrLCW','WRKmkmoM','W7z1W4hcUGLgWQ/dJmkYWQqhW4v7iG','ywn0pq','fqhcNvbZWQW','WPuHW77cL8kQxri','kEAGVow8J+ACIEIVR++8JoAxOoAZLEINO+AEKooaGUwqR+wkQoIhQUwkQoMaGUw6LoAOOEw8JW','6iAr5A+O5lMd','WP7cUYBcJtT6','5lIa5lIQ5Bgv56s655s15l+H6k+D6ls544cb5Rwb6yEp55Qe5Bcp5O+s5lU2','WOtdTSoFkxRdOZNdNSkpWR9T','y2fUDLnPEMu','WPebW5aLALhcJuBdQKiLW7dcJq','5Bcp5Bc65A+4ifnTywXS','x2fJDgLVBNm','W6r3WQfFgJddTfNdI2WJW4JcGIK','WOtdPJi7D2P1WQxcNdJdNa','mdaWmc0Wmc0WmcaWmdOWmdOWma','W6RcL8oNW47cLG','z2vUzxjHBfvUAxq','C2v0vgv4DefSAwDUzwrdzw50zxi','5Qgm6z2I57Ue5lU256In5zco5Bcg6iEQ5yQO5yI35PAW','o1JcHmoq','zNjVBuzPBgu','WOFcVtBcGZH3W6GBp8kvF34','W63cHmo8W4NcLSkZWRxdQmo7WQy','WPZcSttcKa','j8okmSotBsD1iMK','mcJdKd9dW7zP','CMvNAxn0zxjby3rPB24','qKfds0Dst1vorf9lrvK','Aw5JBhvKzxm','mSosj8osCq','ChjLC2vUDfnTywXS','B3bHCxvL','WRfjjaNcV0m','qCo4tLfOkrXWmq','W7ldV8ogW6PfWQi','d2/cUJ4ubq','5AsN5Bc65A+4ieXHCMDL','ywrKvgv4Da','ywrKu3rHy2S','WP1NeYVcNMJcK8oHpMFcU8kQwsK','WQGDomoRW5Szx3/cSaHPWPpcGKddPG','BgvUz3rO','WPZcUuBdPWm','WQddMSoVgLBdMtJdOmkPWPnyW7G','yMDF','Aw5PDa','W73dTCogW6TyWQ0','Ahr0CfbVC3q','W6rZW6hdT0ddSJe9c3O','W7D1W4pcQJTwWRldIW','DgvTCg9Yyxj5rgLYzwn0B3j5','e3hcHCoEftCn','W7ddH2RdVSoF','CMvUzgvYtgfYz2u','ycJdHrXnW718','q00iW7SAWQC','WRrYhsLP','W551W7BdH8kGtW','ACoSWQW','FmoNW4bz','WOqPWQZcLmkzwuXmuKi','CSo/WQ3cN8kw','WOH+W6ZcVdFcRqfVW7jr','C2v0ugfKzgLUzW','6l6t5ywL5Rwf6iMY5BYa5AEl5PE26zE05yIW57Ut5P2F5PE26zE077Ym5l6l5AAc77YAjZC6mdaTmJi6mdaN','WORdS8klWOywW6bPWOe6','W7NcL8o7W4VcOmktWQldRa','WPLCpGeX','WQ9iAX0','WRiLWRhcTNZdTti4pNVdH08ouJFdOrbR','zhjHD0LTywDLqxrqB2LUDa','u3JdJWlcISk6fmk4WPzXdY3dGW','y29UzMLN','C8onW5e','WQP2asPPWQfhx2JcQq','W7P1W5NcTZXg','BgLUzte','WRnCjq','r8kfB8koaSo5','WOlcStZcGdHX','D2LKz2v0rMfTAwX5','fCkWWQGwv8ktvtqwvrrT','z2v0qMfJA2DYB3vUzeLTywDL','xh7dNaxcTCkRm8kJWPrF','W6hcHmk7taVcMe7dKmkfWP1WW4RcTG','W6fQW5yqhGxcI8oeW4ZcH8kHga','Bg9HzeLTywDL','iZfHn2jMmW','W7SIdh9VW6jU','u0vuveLor19lrvK','C2v0vgv4DenVBg9Y','WPHPW7hcHtVcIHL6W7bh','y29UDgfPBNm','vK0sW5SEWQZcT2DFia','5y+Z5lIk6kEs','BgfIzwW','qNtdMq','DgHLBwvtzxr0Aw5N','W73dIMNdLCokWPqlt8k8D37cSg7dOKu','jL9FC2L6zt0','W4RcOSovW4a','mtiXuvDTEfHk','5y+Z5lIl6kEs','ywrKq2fUy2vSqwn0Aw9U','WROupCoeW5y','cCkhiNXKjCkcW7NdGvOW','zYldOI5qW7PMWQO','z2vUzxjHBfrVDgfS','tCo3W5/cN8kexSoXumkUtSkNchGlCG/cPSom','5ywO6yoOiefSBa','lLJcJSotW6TdWQVcMSkWW6VdHmk4','cxVcOSoDccWiWQW','C2v0','WOacjCoMlSoVW7nt','iIaVpGOGicaGica8y2fUDMfZigLKpsjTywLUq2fUDMfZiIaVpGOGicaGica','W5vXW7hdLSkFuKvjFa','W7/dGwpdSmocWP0','aSk+WOOpDmktxWmKtWS','CNvUpW','teu4W6RdMH52pSkYW5JcMmkRaa','WP3cOKy','Bg9HzePtt04','WOpdRcO+xwHwWRZcIsxdRmkxWOG','CMvWBgfJzq','WObuiqGxW43cLSkOW47cPa','y2lcO8kyeKLy','W7JdQmohW6bIWR5RuSocqq','nJzqwNjwt28','WQPAmulcTGJcRmkVW4FdGCkuWRC','5Bkt5Bku5A+1','z2v0sw1Hz2u','W6JcK8o4W5lcHCkF','D2LKDgG','ChjLC2vUDeXHCMDL','y2vUDgvYqwXPz25dB250zw50','Dg90ywW','Bg9HzeHutuW','WR5fjaNcTLtcICogha','WOugW5iK','y3jLyxrLvgLTzq','C3rYB2TLrwXSAxbZzq','bKlcV0pdVXBcGLDD','nmotdxZdVq','5OIr5BEY5OIQ5zU+','WRjdnaNcRfFcJ8ona1FcGCkmwH/cKCkO','jMrHDge9','WO3dOmkeWOCiW6rSWPi3sHSIfbdcNG','pmkWguvHaSkNW5tdQ20q','z2v0u2v0DgLUz3m','y2LYy2XLswnVBG','AmoCW5egjCkQeG','WOrbmeFcRGJdMmk0W4pdGW','y29ZrgvN','WQHpnaFcVe7cJmovaKlcICkeAbxcJq','cIaGicaGidXPBwCGAwq9iMjSDxjjBwCIihnYyZ0Izgf0ytPPBwfNzs9WBMC7yMfZzty0la','i2vHzwfLyq','tgJcPmkFhemDDmkKW4vGeq','WO7dRIWWvW','W7JcMCo5W5NcOmkdWQVdVCo5WQ7cJCo1s8kS','W7mskL7cG15AW7iJxCo5WRu','z2v0rgf0yq','BM90Awz5','BwvZC2fNzq','6kE56k+A576x6yc25PIi6icn5PQb55Ur5BcA57QN5lI95z6z5zkf5lUl5l6I572L776V','AgvPz2H0','WRPEzItdJq8f','p1xcSSoIprCPWP7cMuqECwBcRa','dNNcKmoffG','pLtcNSo9W6nwWORcNSkFW7VdVCkZWOW','Aw1Hz2vtAxPL','WQ9ApHK7W4K','B8klstVcONywgv/cVG4N','qNtdKWxcG8kTdmkVWP5rgs8','WRDvyrhdHa','BMfTzq','54oG5yEk5BoL57MW5lM45Rw46ksL54cw54gK55Ig5Psr5B+o','yMfJA2DYB3vUzeLTywDL','dmkApLvnkW','6iwK5A2N5lUq','t3mVpa','h3VcNConktWvWR/cSM0hvu3cGq','jmocd2pdNJzzrbW','z2v0','i2zMzG','5zYa5z2r6kYd57Yp','ywrKqwn0Aw9U','W5jtWPPGhG3dL2pdTW','W4W0omoBW5ZcJW','zMLSzw5HBwu','WQaxp8oeW48twwK','W4BdIslcI8on','6k6+572U5zYW5z2a','zYJdIs5HW7XKWQlcOa','v0KkW5OOWRVcJ3Pyk8kpjq','tKCvW5eRWR/cJ2y','y2HHCKf0','fXn4WRZcIa','cmkqovLhoCksW7G','W5jFWPz4oa','W6vVW4JcRcnVWR3dISk2WQqKW55Wjmkk','W4ddK2qjymoDoG','WQtdLSo/o1ZdGWO','W7/dVSomW4XsWR5Wvmoc','W5KeF1LGWPZdLmkeW7FcJ0Kzkq','eMycW4lcO20','ywrKu3bHy2vY','Dg9tDhjPBMC','CgvYy2vUDenVBg9Y','WRSVWRBcQMtdVq','W5hdIsBcLmoRdmknpmk/WQC','vSkryCkCgmoOwa','WQTonq3cVg7cTCozfq','y29Uy2f0','WPTZW73cNdVcKbfVW6nll8kt','AxnvC2LUz0rHCMTbChbLyxjHBMnL','WRrkzX7dOrKWWQT4','WRtdNmoLg1RdIJRdOmk2WPe','C2LU','ywrKrgvZDhj1y3rPDMvby3rPB24','WPBdOcO2xG','EGhdMSkeWR4hW50','WOhcL3tdLCkCwSkIi8kDWQvFW44','W6DRW4yagGq','W6NcN8o7W7NcLSkD','Bwq1','5Bcp57Ue5lU26iom5PMV5zU+54Mh5BEY6k6+572U77Yb56In5zco5yI35PAW55sF5Pwi','Bmo7WRlcMCkxn8oAr8kDWPBcHc8','W44Jm8omW5ZcK2/dQMHwFKW','WRXhpHBcI1VcUmoDbva','W7VcKSoXW7tcNSkBWR/dRa','W71PW7JcRtnrWRVdVmk2WRSQ','W4vzWPe','5PU05PAW5PE26zE077YA','ywrKsw1Hz2u','rg9JDw1LBNrZl2LdBg91zh4','WOZdPmkeWPW0W6H5WPayyGmriHdcMfRcK08','ytJdNYLRW71FWQtcTLVcGmk8','5B+P5Awz5lQU5yQ9772n6k2+5ywf5yQ45B+s5Qgp6zYxxoAjM+woPEEQKoEzJUEwR+MDMEEzL+AkHUwBJ+ocKEEgK+wrNowBIUADKUE6GUE4Ma','fupcTxtdQGxcRvnDW4JdNq','g8kWWQ0fqmkFxYmPwq','vG7cIv4','CMvUzgvY','W7Xsj8kLjCoMWQ4','5AAr5BcQ5A2N','5RwQ6k+h5Qco6zY757MD5lI55zYZ5zci56Ec5Bo+5AYb5lIY55IW5PUi56we5PEi5P6x','r0KsW4KVWRVcG3PIlmksmW','zgfYAW','W4FdMvy0FCoakNddJSkgfhi','DgL0Bgu','WPVcPvhdOWH4W61jWQ0','zhjHD1bVAw50vgv4Da','BgLUzti','yMfJA2DYB3vUzenVBg9Y','z2v0sg91CNm','ChvZAa','CMvUzgvYtwvKAxvT','C2v0qMfJA2DYB3vUzeLTywDL','W6fWW6ldSZZcOM52Fq8','5yg45Q2k6lg/6k2Q','W7L7W5NcVti','q8o9rgzCnbfRnW','zMLSBfjLy3q','Dgv4DenVBg9Y','WPnCb0FcRt7dUmkVW4FdImkB','uCo4vKjSjqXWmhmWWPG','W5f1W6VdQCkLwKzyvN7dPtfs','bhtcOcG6b0a','5B+I5BYM5yYk','io+8IowKH+AZQo+8MUw9K+wjJEIUVUwKH+wpQUAuR+AmGEs4PoIHJowWJ+E7Hos7TU+8JoAjGos7PEs4I+I+UEMaIEMHUEs4REEAHooaJos4REMxTooaJEwsJooaJow6LEMdQooaJEEAHoMaIEMHUEAyR+s4GoIhToEAHo+8Iq','qN0Sp8oWWQG','zMLSzuv4Axn0CW','W6NcMSo8W57cLG','xJBdRtaVi0ZdK8k9','C2L6zq','C2f2zvnLDhrPBMDZ','zM9UDa','yMLUza','C2vHCMnO','5yMn5y675OIQ5zU+id4','zNvUy3rPB24','W7T5W7VdHmkKxGfrCwhdHa','5BEM5lIl6kEs','C2v0rMLSBenVBg9Y','mtbbveL6u0e','W4hcVJ9GugaQ','W6NcMmoTWQZcQmokmxRcTZRcPW','y2HHCKnVzgvbDa','wmo3W5JcP8kosmo3Ca','5OIQ5zU+5lIT6kAb6k6+572U6ycp5PIo6iom5PMV57Ue5lU255Qe5Bc65A+457g75z6l5PIV77YF','W6NcK8oHW67cH8kiWRFdOSo5WOdcPmo2sSkQ','Aw1Hz2u','a8k/WQ8u','DgLUDenVBg9Y','EwBcPSkofufpA8oJW5jPeCoAWRnUCSo+WROYWRhcHSkuW47cNSog','nJCWmtG1mffbz0rlDq','Bg9JywW','C3bSAxq','5lQ55BcG5A2vW74xwSk4W5hcOSkK','smo7W4JcImkesCodySkGvCkUfa','5AE/6kwq6k2B576E','WRv2hd1TWRrU','CgfYC2u','zSoAW4OBiCkNb8kyW4tdNwxcSa','lepcHG','yMfZzty0rw5JB2rL','C2HHzg93sw1Hz2u','cNzHCIbTDwXFDgfIBgu9wZuXmIW1mtiSndu2lduXmIWZmJGSndu2ldmZnsW1mtiSnda1ldmYocWYnZeSndu2ldm4ocWZmZuSmJKYlduXmIW0ntqSnda1ldm2ncWZmJGSmJK4ldi3msW0otySndu2ldqYmcWZodGSmZyWldmZnsWZmtiSmJKYldi3mYW1mtiSndGYldq1ncW0mJGSnda1ldm4mYWZnJqSmZq1ldmYocWZmtiSmJK4ldi4ncWYnZeSmJu5ldq5nIW0nZuSndu2ldqZnYW0mJaSnda0ldm4ocWZnZqSmZyWldm0nYWZmZuSmZiZldmXmIWZmdiSmJKYldi4mIWYnZmSmJy1lduXmIW0otCSndGYldq2ocW0ntqSndqXldqYocW0mtCSnda1ldm5ncWZodmSmZCZldm2ncWZntqSmZq1ldmZnYWZmJGSmZiWldmXmIWZmduSmJK4ldi5msWYodqSmJC4ldi3msWYnJuSmJu5lduWnYW0otySndG1ldq3nsW0nJuSndu2ldq0nIW0mZCSndi4ldqYmcW0mtiSnda0ldm5nIWZodGSmZGXldm3ncWZnJCSmZyWldm1ncWZndCSmZqXldmZnsWZmJKSmZiZldmXocWZmtiSmZa3ldmWmIWYotCSmJKYldi4nYWYodiSmJC4ldi3mYWYnJKSmJy1ldi2msW1mtiSnta1ldq5nYW0odKSndGYldq3nsW0nJGSndyXldq1ncW0ndCSndqXldqZnsW0mJGSndiYldqXnYW0mteSnda1ldm5osWZotqSmZG5ldm4mYWZnZGSmZCZldm2ocWZnJqSmZu5ldm1ncWZntaSmZq1ldm0msWZmZCSmZmYldmYocWZmJqSmZiWldmXnIWZmtiSmZa5ldmWnsWZmdeSmJK4ldi5ncWYoteSmJG3ldi4ncWYodeSmJC4ldi3ncWYnZeSmJy4ldi2nsWYnJiSmJu5ldi1nYW1mdCSntaXldq5nIW0oteSndG1ldq4mcW0nZuSndCWldq2nsW0nJaSndu2ldq1msW0ndySndqYldqZnYW0mZmSndi4ldqYncW0mJaSnde2ldqXmIW0mdGSnda0ldqWmcWZotySmZKYldm4ocWZoduSmZGXldm3nYWZnZqSmZCWldm2nYWZnJmSmZyWldm1nYWZntqSmZuWldm0nYWZndqSmZqXldmZocWZmZuSmZmYldmYosWZmJySmZiZldmYmcWZmtGSmZe1ldmXmIWZmtaSmZa3ldmWncWZmdiSmJK5ldi5nYWYotqSmJKYldi4osWYodCSmJG1ldi4mIWYodaSmJC4ldi3nsWYnZmSmJCXldi2osWYnJCSmJy1ldi2mYWYnJeSmJu5xtT2yxiGC2HNx3rHyMXLpvS5ldeXldeYldeZldeZlde0lde0lde1lde1lde1lde1lde2lde2lde2lde2lde3lde3lde3lde3lde3lde3lde3lde4lde4lde4lde4lde4lde4lde4lde4lde4lde5lde5lde5lde5lde5lde5lde5lde5lde5lde5lde5lde5lde5lde5ldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiWldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiXldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiYldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldiZldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0ldi0xtTMDw5JDgLVBIbZDgfJA0jSDxjdyw52yxnsr0iOAwqSDg9Wx3GSDg9Wx3KSD2LKDgGSAgvPz2H0lhjHzgL1CYL7AwyOAxnoyu4OCMfKAxvZkxX8CMfKAxvZpdePCMv0DxjUo3jHzgL1C3W9mdT2yxiGy2fUDMfZpwrVy3vTzw50lMDLDevSzw1LBNrcEuLKkgLKktT2yxiGy29UDgv4Dd1Jyw52yxmUz2v0q29UDgv4DcGImMqIktT2yxiGAw1Hz2veyxrHo3rYExT0CNL7Aw1Hz2veyxrHpwnVBNrLEhqUz2v0sw1Hz2veyxrHkhrVCf94lhrVCf95lhDPzhrOlgHLAwDODcL9y2f0y2GOzsL7Dhj5E25LDhnJyxbLlNnLy3vYAxr5lLbYAxzPBgvNzu1HBMfNzxiUzw5HyMXLuhjPDMLSzwDLkcjvBML2zxjZywXcCM93C2vYuMvHzciPo2LTywDLrgf0yt1JB250zxH0lMDLDeLTywDLrgf0ysH0B3bFEcX0B3bFEsX3Awr0AcXOzwLNAhqPFwnHDgnOkguPE2fSzxj0kcjdyw5UB3qGywnJzxnZigXVy2fSigLTywDLiIK7DgHYB3CGBMv3ievYCM9Ykcj1BMfIBguGDg8GywnJzxnZigXVy2fSigLTywDLigrHDge6iciRzsK7CMv0DxjUFx19y2f0y2GOzsL7ywXLCNqOiKnHBM5VDcbHy2nLC3mGAw1Hz2uIktT0AhjVDYbUzxCGrxjYB3iOiNvUywjSzsb0BYbHy2nLC3mGAw1Hz2uGzgf0ytOGiITLktT9DMfYihbPEgvSCZ1PBwfNzurHDgeUzgf0ytT2yxiGEcX5lgKSCcX5CcX5AsX5DYXYx3n1BsXNx3n1BsXIx3n1BsXYx291Df9ZDw0Sz19VDxrFC3vTlgjFB3v0x3n1BsXYx2LUx3n1BsXNx2LUx3n1BsXIx2LUx3n1BsXWCIXWzYXWyIXYyNm7DMfYigrPDJ1YywrPDxmRCMfKAxvZkZe7DMfYihC0pxDPzhrOpdWYo3zHCIb3Awr0Ae1PBNvZmt13Awr0Ac0Xo3zHCIbOzwLNAhrnAw51CZe9AgvPz2H0lte7DMfYihjHzgL1C1bSDxmXpxjHzgL1CYSXo3zHCIbZDw1gywn0B3i9CMfKAxvZugX1CZeQkhjHzgL1C1bSDxmXkZePlZi7DMfYihn0ywnRu3rHCNq9BMv3iejSDxjtDgfJAYGPo3zHCIbZDgfJAZ1ZDgfJA1n0yxj0o2zVCIHPpte7AtXKAxy7AsSRkxTZDgfJAZ1ZDgfJAY5UzxH0pw5LDYbcBhvYu3rHy2SOktTPzIHPpt1YywrPDxnqBhvZmsL2yxiGC3rHy2TfBMq9C3rHy2T9C3rHy2SUBMv4Dd1ZDgfJA1n0yxj0o3zHCIbZDgfJA0LUpw51BgW7DMfYihn0ywnRt3v0pw51BgW7ExC9EwK9mdT2yxiGBxvSx3n1Bt1TDwXFDgfIBgvBCMfKAxvZxtT2yxiGC2HNx3n1Bt1ZAgDFDgfIBgvBCMfKAxvZxtTMB3iOEt0Wo3K8AgvPz2H0o3KRkYL7CL9PBL9ZDw09z19PBL9ZDw09yL9PBL9ZDw09CL9ZDw09z19ZDw09yL9ZDw09mdTYx291Df9ZDw09CMfKAxvZugX1CZeQkhbYpxbPEgvSC1T5Av0Po2DFB3v0x3n1Bt1YywrPDxnqBhvZmsOOCgC9CgL4zwXZw3LPkZfDktTIx291Df9ZDw09CMfKAxvZugX1CZeQkhbIpxbPEgvSC1T5AsSYxsK7CL9ZDw0Rpxn1BuzHy3rVCIPWCJTNx3n1BsS9C3vTrMfJDg9YkNbNo2jFC3vTkZ1ZDw1gywn0B3iQCgi7C3rHy2S9C3rHy2TtDgfYDdTMB3iOAt0Wo2K8CMfKAxvZugX1CZe7AsSRkxTZDgfJAY5YpxbYo3n0ywnRlMC9CgC7C3rHy2SUyJ1WyJTZDgfJAZ1ZDgfJAY5UzxH0FwzVCIHPpte7AtXYywrPDxnqBhvZmtTPkYSPE3a9EwKRkcH3Awr0Ae1PBNvZmtXPp3DPzhrOtwLUDxmXoMKPpdWYktTYx3n1BsS9khn0ywnRlNi9khbYpxbPEgvSC1TWxsKPkIHYyNm9CMfKAxvZugX1CZeTAsK7z19ZDw0RpsHZDgfJAY5NpsHWzZ1WAxHLBhnBCcSXxsKPkNjICZTIx3n1BsS9khn0ywnRlMi9khbIpxbPEgvSC1TWkZjDksKQCMjZo3jFAw5FC3vTkZ1WCJTNx2LUx3n1BsS9CgC7yL9PBL9ZDw0RpxbIo3n0ywnRpxn0ywnRlM5LEhr9C3rHy2TjBJ1ZDgfJA1n0yxj0o3n0ywnRt3v0pxn0ywnRrw5Ko2zVCIH4pta7EdX3Awr0AdT4kYSPE3bPEgvSC1T5Av09khjFC3vTkM11Bf9ZDw0PpJ5ZAgDFC3vTo3bPEgvSC1T5AsSXxt0Oz19ZDw0QBxvSx3n1BsK+pNnOz19ZDw07CgL4zwXZw3LPkZjDpsHIx3n1BsPTDwXFC3vTkt4+C2HNx3n1BtTYx3n1Bs09CL9VDxrFC3vTo2DFC3vTlt1Nx291Df9ZDw07yL9ZDw0TpwjFB3v0x3n1BtTYx291Df9ZDw0Tpxn0ywnRsw4UCJTNx291Df9ZDw0Tpxn0ywnRsw4UzZTIx291Df9ZDw0Tpxn0ywnRsw4UyJTWpsH5DYSOkha9EcTYywrPDxmRmsK8D2LKDgHnAw51CZe/CdP3Awr0Ae1PBNvZmsKPpdWYo3jFAw5FC3vTkZ0OC3rHy2TjBI5YpxbPEgvSC1TWxsK7z19PBL9ZDw0RpsHZDgfJA0LUlMC9CgL4zwXZw3aRmv0Po2jFAw5FC3vTkZ0OC3rHy2TjBI5IpxbPEgvSC1TWkZjDktTYx3n1BsS9CL9PBL9ZDw07z19ZDw0RpwDFAw5FC3vTo2jFC3vTkZ1Ix2LUx3n1BtTZDgfJA0LUpxn0ywnRsw4UBMv4DdTYx291Df9ZDw0RpsHWCJ1ZDgfJA091Dc5YktTNx291Df9ZDw0RpsHWzZ1ZDgfJA091Dc5NktTIx291Df9ZDw0RpsHWyJ1ZDgfJA091Dc5IktTYx2LUx3n1Bs09Chi7z19PBL9ZDw0TpxbNo2jFAw5FC3vTlt1WyJTZDgfJA091Dd1ZDgfJA091Dc5UzxH0o3LPkZ00FxL3kZ13Awr0Ah1MB3iOEd0Wo3G8D2LKDgG7EcSRkxTNx2LUx3n1Bt1Ix2LUx3n1Bt1Yx2LUx3n1Bt1Nx3n1Bt1Ix3n1Bt1Yx3n1Bt0Wo3LPpxG8pdi7CL9VDxrFC3vTpxjHzgL1C1bSDxmXkIHWCJ1WAxHLBhnBEwLDktTNx291Df9ZDw09CMfKAxvZugX1CZeQkhbNpxbPEgvSC1T5AsSXxsK7yL9VDxrFC3vTpxjHzgL1C1bSDxmXkIHWyJ1WAxHLBhnBEwKRmL0Po3jFC3vTkZ1ZDw1gywn0B3iQChi7z19ZDw0Rpxn1BuzHy3rVCIPWzZTIx3n1BsS9C3vTrMfJDg9YkNbIo3n0ywnRpxn0ywnRu3rHCNq7zM9YkgK9mdTPphjHzgL1C1bSDxmXo2KRkYL7C3rHy2SUCJ1WCJTZDgfJAY5NpxbNo3n0ywnRlMi9Cgi7C3rHy2S9C3rHy2SUBMv4Dh15Cd13Awr0AdTMB3iOAt0Xo2K8pxjHzgL1CZTPkYSPE3LPpsH5CcT4ktW8mJTYx3n1BsS9khn0ywnRlNi9khbYpxbPEgvSC1T5Av0PksOOCMjZpxjHzgL1C1bSDxmXlwKPo2DFC3vTkZ0OC3rHy2SUzZ0OCgC9CgL4zwXZw3LPkZfDksKQCMjZo2jFC3vTkZ0OC3rHy2SUyJ0OCgi9CgL4zwXZw3LPkZjDksKQCMjZo3jFAw5FC3vTkZ1WCJTNx2LUx3n1BsS9CgC7yL9PBL9ZDw0RpxbIo3n0ywnRpxn0ywnRlM5LEhq7AwyOAtXOzwLNAhrnAw51CZePE3LWkZ13Awr0Ah19EwK9EdTZDgfJA0LUpxn0ywnRu3rHCNq7C3rHy2TpDxq9C3rHy2TfBMq7zM9YkhK9mdT5pgHLAwDODdT5kYSPE3a9EwK8pdi7CgL4zwXZw3bDpsHYx3n1BsPTDwXFC3vTkt4+C2HNx3n1BtTWAxHLBhnBCcSXxt0Oz19ZDw0QBxvSx3n1BsK+pNnOz19ZDw07CgL4zwXZw3aRmL09kgjFC3vTkM11Bf9ZDw0PpJ5ZAgDFC3vTo3jFC3vTlt1Yx291Df9ZDw07z19ZDw0TpwDFB3v0x3n1BtTIx3n1Bs09yL9VDxrFC3vTo3jFB3v0x3n1Bs09C3rHy2TjBI5Yo2DFB3v0x3n1Bs09C3rHy2TjBI5No2jFB3v0x3n1Bs09C3rHy2TjBI5Io3a9khGRkcGOCd15k3jHzgL1C1bSDxmXktXOzwLNAhrnAw51CZe/CdPOzwLNAhrnAw51CZePkNDPzhrOksK8pdi7CL9ZDw0RpsHYx2LUx3n1BsS9khn0ywnRsw4UCJ1WAxHLBhnBCf0PktTNx3n1BsS9kgDFAw5FC3vTkZ0OC3rHy2TjBI5NpxbPEgvSC1TWkZfDksK7yL9ZDw0RpsHIx2LUx3n1BsS9khn0ywnRsw4UyJ1WAxHLBhnBCcSYxsKPo3n0ywnRsw49C3rHy2TjBI5UzxH0o3jFB3v0x3n1BsS9khbYpxn0ywnRt3v0lNiPo2DFB3v0x3n1BsS9khbNpxn0ywnRt3v0lMCPo2jFB3v0x3n1BsS9khbIpxn0ywnRt3v0lMiPo3jFAw5FC3vTlt1WCJTNx2LUx3n1Bs09CgC7yL9PBL9ZDw0TpxbIo3n0ywnRt3v0pxn0ywnRt3v0lM5LEhq7EwKRpxDPzhrOFx1JB250zxH0lNb1DeLTywDLrgf0ysHPBwfNzurHDgeSDg9Wx3GSDg9Wx3KPFwz1BMn0Aw9UiejSDxjtDgfJAYGPE3rOAxmUCJ0Wo3rOAxmUzZ0Wo3rOAxmUyJ0Wo3rOAxmUyt0Wo3rOAxmUBMv4Dd1UDwXSFqOGicaGicaVlYbODhrWCZOVl2DPC3qUz2L0AhvIlMnVBs9TAMfJA3nVBI81mZeXmJu2cIaGicakicaGicaGzNvUy3rPB24GCMDIvg9iC2WOCIWGzYWGyIL7cIaGicaGicaGicbYic89idi1nsWGzYaVpsaYntuSigiGlZ0GmJu1oWOGicaGicaGicaGDMfYig1HEca9ie1HDgGUBwf4khiSigCSigiPlcbTAw4GpsbnyxrOlM1PBIHYlcbNlcbIktSkicaGicaGicaGihzHCIbOlcbZlcbSid0Gkg1HEcaRig1PBIKGlYaYoWOGicaGcIaGicaGicaGicbPzIHTyxGGpt0GBwLUkxSkicaGicaGicaGicaGicbOid0GCYa9ida7ic8VigfJAhjVBwf0AwmkicaGicaGicaGih1LBhnLEWOGicaGicaGicaGicaGihzHCIbKid0GBwf4ic0GBwLUoWOGicaGicaGicaGicaGihmGpsbSid4Gmc41id8GzcaVicGYic0GBwf4ic0GBwLUksa6igqGlYaOBwf4icSGBwLUktSkicaGicaGicaGicaGicbZD2L0y2GOBwf4kxSkicaGicaGicaGicaGicaGicaGy2fZzsbYoIbOid0GkgCGlsbIksaVigqGkYaOzYa8igiGpYa2idOGmcK7igjYzwfRoWOGicaGicaGicaGicaGicaGicbJyxnLigC6igGGpsaOyIaTihiPic8GzcaRidi7igjYzwfRoWOGicaGicaGicaGicaGicaGicbJyxnLigi6igGGpsaOCIaTigCPic8GzcaRidq7igjYzwfRoWOGicaGicaGicaGicaGih0kicaGicaGicaGicaGicbOic89idy7cIaGicaGicaGicb9cIaGicakicaGicaGicaGihjLDhvYBIbBAcWGCYWGBf07cIaGicaGih0kicaGiaOGicaGicbMDw5JDgLVBIbOC2XuB1jNyIHOlcbZlcbSkxSkicaGicaGicaGihzHCIbYlcbNlcbIoWOGicaGcIaGicaGicaGicbPzIHZid09idaPEWOGicaGicaGicaGicaGihiGpsbNid0GyIa9igW7ic8VigfJAhjVBwf0AwmkicaGicaGicaGih1LBhnLEWOGicaGicaGicaGicaGihzHCIbODwuYCMDIid0GzNvUy3rPB24GAhvLmNjNyIHWlcbXlcb0kxSkicaGicaGicaGicaGicaGicaGAwyODca8idaPihqGkZ0GmtSkicaGicaGicaGicaGicaGicaGAwyODca+idePihqGlt0GmtSkicaGicaGicaGicaGicaGicaGAwyODca8ideVnIKGCMv0DxjUihaGkYaOCsaTihaPicOGnIaQihq7cIaGicaGicaGicaGicaGicaGigLMkhqGpcaXlZiPihjLDhvYBIbXoWOGicaGicaGicaGicaGicaGicbPzIH0idWGmI8ZksbYzxr1CM4GCcaRicHXic0GCcKGkIaOmI8Zic0GDcKGkIa2oWOGicaGicaGicaGicaGicaGicbYzxr1CM4GCdSkicaGicaGicaGicaGicb9cIaGicakicaGicaGicaGicaGicb2yxiGCsa9igWGpcaWlJuGpYbSicOGkdeGkYbZksa6igWGkYbZic0GBcaQihm7cIaGicaGicaGicaGicaGDMfYihaGpsaYicOGBcaTihe7cIaGicaGicaGicaGicaGCIa9igH1ztjYz2iOCcWGCsWGAcaRideVmYK7cIaGicaGicaGicaGicaGzYa9igH1ztjYz2iOCcWGCsWGAcK7cIaGicaGicaGicaGicaGyIa9igH1ztjYz2iOCcWGCsWGAcaTideVmYK7cIaGicaGicaGicb9cIaGicakicaGicaGicaGihjLDhvYBIbBtwf0Ac5YB3vUzcHYicOGmJu1ksWGtwf0Ac5YB3vUzcHNicOGmJu1ksWGtwf0Ac5YB3vUzcHIicOGmJu1kv07cIaGicaGih0kicaGicaGcIaGicaGigz1BMn0Aw9UigXPz2H0qMX1CIHOC2WPihSkicaGicaGcIaGicaGicaGlY8GqwrQDxn0ihrOzsbSDw1PBMfUy2uUcIaGicaGicaGBgv0igX1BunHBgmGpsaWlJm1icSGkdaUmYaVigHZBfSYxsK7cIaGicaGicaGAwyGkgX1BunHBgmGpcaXksb7igX1BunHBgmGpsaXoYb9cIaGicaGicaGzwXZzsbPzIaOBhvTq2fSyYa+idmUmYKGEYbSDw1dywXJid0GmY4ZoYb9cIaGicaGicaGy29UC3qGBca9igHZBfSYxsaQigX1BunHBgm7cIaGicaGicaGcIaGicaGicaGlY8GqwrQDxn0ihrOzsbZyxr1CMf0Aw9UlIakicaGicaGicbJB25ZDcbJB2XVCMz1Bca9idiGkIbOC2XBmv0GkIbSoWOGicaGicaGignVBNn0ihmGpsbOC2XBmv0GkIbJB2XVCMz1BcaQideUntSkicaGicaGicakicaGicaGicbYzxr1CM4Gw2HZBfSWxsXZlgXDoWOGicaGicaGiaOGicaGicb9cIaGicaGiaOGicaGicbMDw5JDgLVBIbKyxjRqMX1CIHOC2WPihSkicaGiaOGicaGicaGic8ViefKANvZDcb0AguGC2f0DxjHDgLVBI4GcIaGicaGicaGy29UC3qGy29SB3jMDwWGpsaYicOGAhnSwZfDicOGAhnSwZjDoWOGicaGicaGignVBNn0ihmGpsbOC2XBmv0GkIaOmsaTigHZBfSYxsKGkIaZoWOGicaGicaGiaOGicaGicaGihjLDhvYBIbBAhnSwZbDlhmSAhnSwZjDxtSkicaGicaGicakicaGicaGFqOGicaGcIaGicaGic8VifnLDcb1Ccb0AguGy2fUDMfZlGOGicaGicbJB25ZDcbPBwCGpsbKB2n1BwvUDc5NzxrfBgvTzw50qNLjzcGIyMX1CKLTzYiPoWOGicaGicbJB25ZDcbJyw52yxmGpsbKB2n1BwvUDc5NzxrfBgvTzw50qNLjzcGIBwfPBKnHBNzHCYiPoWOGicaGcIaGicaGignVBNn0ihCGpsbPBwCUBMf0DxjHBfDPzhrOoWOGicaGicbJB25ZDcbOid0GAw1NlM5HDhvYywXizwLNAhq7cIaGicakicaGicaGy2fUDMfZlNn0EwXLlNDPzhrOica9ihCGkYaIChGIoWOGicaGicbJyw52yxmUC3r5BguUAgvPz2H0id0GAcaRicjWEci7cIaGicaGignHBNzHCY53Awr0Aca9ihC7cIaGicaGignHBNzHCY5OzwLNAhqGpsbOoWOGicaGcIaGicaGignVBNn0ignVBNrLEhqGpsbJyw52yxmUz2v0q29UDgv4DcGImMqIktSkicaGicaGy29UDgv4Dc5JBgvHCLjLy3qOidaSidaSihCSigGGktSkicaGicaGy29UDgv4Dc5KCMf3sw1Hz2uOigLTzYWGmcWGmcaPoWOGicaGicakicaGicaGlY8Gr2v0ihrOzsbPBwfNzsbKyxrHigzYB20GDgHLignVBNrLEhqUcIaGicaGihzHCIbPBwfNzurHDgeGpsbJB250zxH0lMDLDeLTywDLrgf0ysGWldaSDYXOktSkicaGicaGDMfYihbPEca9igLTywDLrgf0ys5KyxrHoWOGicaGicakicaGicaGDMfYigLZrgfYAYa9ici','u8kvECk5f8o/xa','ywn0Aw9Uu2v0DgLUzW','mZyZmZq5s3PJDKL1','W64wettcKedcJ8o1','W5NdMuyjBCov','z2vUzxjHBfvZzq','5Aw95yop5OkO6ycj5OUP55Qe54wN54Mh5lIn5PIV5Q2J56gU55Qe5OIQ5zU+77Ym5OIw6icf5OkO55Qe5PY65z6l5OIr5lUS5PQc5PE25lIn5PsV5OYb44cc54k55yE756gU5A6A5yMn5B6a56s+5yY66k6O6k66','WPT+W6dcHrJcQHf3W7n0imkyW5Xv','W5D0W7VdTmkTq1u','BgvMDa','56EF6zMm5OMS5yIG','6kYl6lwZ5l6l6AgE','6iEQ5yQO6ycc5BQu','BhNcT8ofWRNdQIJcLhq','yxjN','6Ake6kEi57Ue5lU2','W7/dHMZdPmoQWO4','W7ddI2pdSCoFWPi','FIJdLtnxW74','W5pdHspcTCoCaSkkmG','Ahr0Chm6lY9ZDxbWB3j0lNfXlMnVBs9WCM9KDwn0CY8YodCZnZe','CMvUzgvYu21HBgW','BwvKAxvTu3LZDgvTrM9UDa','Dgv4DezPzwXKvMfSDwu','WRP8cZC','WOf6W7xcLa','W77cJ8o8WOZcQmoqmudcStJcSqa','W6/cJSoQWPBcQSoq','DgHLBwvuAw1Lu2v0DgLUzW','W7jOW4lcSXXwWRddNq','W7JdS8oeW6H0WRjWsmoyvq','gNhcHCoGfYqbWQ4','C21HBgW','W7jOW4lcSXHEWQ/dNCoHW70sW55Np8kxvW','iZaWma','i2rKzgvMmW','dXDYWQ/cRKiSg8kV','6ycu55sV5RAr6ysK','WPpcStZcKdHXW68wo8kBFutdJmozrWG2W6m','CMvUzgvYsgvHzgvY','h3JcPSoXW5f6WQRcQq','WRhdIGOdE0HEWPpcPW7dOa','g33cNCofkcafWR8','W7ZcMmo3WPVcQmomcxRcTZG','nduWmJq4nef0z0HUsq','s8o7W5JcG8ke','WQWgmSoElSoUW7H3kqW9ua','5lQT5zUZ55Ah5l6L6zYz5PYc','zhjHD1rLEhrjBLjLy3q','WPemW5iKCfdcItBcTrG','bSkKWRui','cCksdNHAl8kmW67dO0CLs24','y29UzMLNtgLNAhq','j8ohl8oksXXWih4','y29UC3rYDwn0B3i','5lIT5Bc65A+4','WRmkkmo3DG','55Id6iMXtoAQHoEWNq','W4pdLuyhFComgfldJmkdf3K','c0FcON/dUGpcT1DDW5VdKCkPjXdcOx0','W6JcKSo3WOS','5lQ36zsc5BwZ','5yYF5REX5Pkr5l+0','ExlcHSo0WQRdUZpcUhTAW5C','WO5/W7ZcPtVcUWbDW75hlCkq','bSkylhzn','tujOWQ3cJ2GUoq','5lIT6zwC5y2w','rKesW5S','hNVcN8opeYi','WOPKzSknWO3dHs/dQNburfyg','6Agn6kAX57Qy5lME','z2vUzxjHBfjLBwfPBMrLCG','fupcVhNdVapcHebUW4ZdJmkJkri','vg9WihjPz2H0','C2v0v2LKz2v0','6k6W572P5OUa5yM0','WO7dT8krWR0UW6D5WP0','nde1ndq4me9vtK9rBq','CN7dIrxcICkYyCkMWP9Ega','B3bLBLvsta','dwpcOdesda','rKLmrv9nr1jFte9dquW','WPL1WRddVe3cT8kcW5iGxmkCW7pcIt9EW6i/mG','CCobW59vW6SH','W5vFWPHX','zNjVBujHC2u2nfn0CMLUzW','C2v0DgLUz3m','DxjS','mtGWmdC4r0jLqunV','E8oRW4fzW7iGW7WtWRhdNNi','jmomd3pdOdG','WRGgmSoAkmo1W69t','5l6L5O2L5RA86iMl','WOzqiu/cTqpdN8k4W5RdKSkvWQ07','DgHLBwvuAw1L','y2fUDLjHzgL1CW'];_0x3390=function(){return _0x2d2718;};return _0x3390();}class Widget extends Base{constructor(_0x40cfe8){const _0x910c47=_0x130fb4,_0x57ac36=_0x2fb5f1;super(_0x40cfe8),this[_0x57ac36(0x8b,'hP()')]=_0x57ac36(0x13a,']Jpy'),this[_0x57ac36(0x1b3,'Lh9d')]=_0x910c47(0x17e),this[_0x910c47(0x1c0)]={'canvSize':0x64,'canvRadius':0x64,'canvWidth':0x5,'canvTextSize':0x28,'dayRadiusOffset':0x3c,'line1':{'circleIcon':_0x57ac36(0x1ab,'Glu7'),'circleUrlIcon':null,'label':_0x57ac36(0x116,'[LQT'),'unit':'元'},'line2':{'circleIcon':_0x57ac36(0xfd,'Sp[$'),'circleUrlIcon':null,'label':_0x57ac36(0x130,'Sp[$'),'unit':'M'}},this[_0x910c47(0x13f)]={'backgroundColor':new Color(_0x910c47(0x8f)),'textColor':new Color(_0x910c47(0x12d)),'line1':{'fgCircleColor':new Color('#dddef3'),'percentColor':new Color(_0x57ac36(0x202,'%IA]')),'circleColor':new Color(_0x910c47(0x1cf)),'iconColor':new Color('#1a7bf3'),'textColor':new Color(_0x910c47(0x12d))},'line2':{'fgCircleColor':new Color(_0x910c47(0x12e)),'percentColor':new Color('#000'),'circleColor':new Color('#1a7bf3'),'iconColor':new Color(_0x57ac36(0x17a,'@uHp')),'textColor':new Color(_0x57ac36(0x1dc,'ZS4h'))}},this['configDark']={'backgroundColor':new Color(_0x57ac36(0x1d0,'[axV')),'textColor':new Color('#eaeaea'),'line1':{'fgCircleColor':new Color(_0x910c47(0x8f)),'percentColor':new Color(_0x910c47(0x73)),'circleColor':new Color(_0x57ac36(0xca,'AoC%')),'iconColor':new Color(_0x910c47(0x1cf)),'textColor':new Color(_0x57ac36(0x191,'$yfI'))},'line2':{'fgCircleColor':new Color('#fff'),'percentColor':new Color('#eaeaea'),'circleColor':new Color(_0x57ac36(0xf4,']KCE')),'iconColor':new Color(_0x910c47(0x1cf)),'textColor':new Color('#eaeaea')}},this[_0x910c47(0x192)](_0x57ac36(0x90,'^PZp'),this[_0x910c47(0x10c)][_0x910c47(0xec)](this)),this[_0x57ac36(0x154,'H$ol')](_0x57ac36(0x103,'ZS4h'),this[_0x910c47(0x1d9)][_0x57ac36(0x14f,'qrq7')](this));}async['render'](){const _0x4bcbd4=_0x2fb5f1,_0x1e8de8=_0x130fb4,_0x6d8a28=await this[_0x1e8de8(0x78)]();switch(this[_0x4bcbd4(0x1a3,'5k(f')]){case _0x4bcbd4(0x9c,'vcIb'):return await this[_0x4bcbd4(0xc6,'H$ol')](_0x6d8a28);case _0x4bcbd4(0xa8,'[LQT'):return await this[_0x1e8de8(0xd7)](_0x6d8a28);default:return await this[_0x1e8de8(0x120)](_0x6d8a28);}}async[_0x130fb4(0x120)](_0x5dff2e){const _0x3cef2c=_0x2fb5f1,_0x296f82=_0x130fb4;var _0x373a1b=this[_0x296f82(0x13f)];await this[_0x3cef2c(0xbe,'BfrT')]()&&(_0x373a1b=this[_0x3cef2c(0xb0,'5k(f')]);let _0x33251c=new ListWidget();_0x33251c[_0x296f82(0xd4)]=_0x373a1b['backgroundColor'];let _0x58572a=_0x33251c[_0x3cef2c(0x11e,'s#lt')]();await this[_0x3cef2c(0x1c2,'[axV')](_0x58572a,_0x5dff2e['totalRatio'],_0x5dff2e['balance'],this[_0x3cef2c(0x1a6,'MBRE')][_0x3cef2c(0x143,'AoC%')][_0x3cef2c(0xfb,'dDab')],this[_0x3cef2c(0x19b,'H$KF')]['line1'],_0x373a1b[_0x296f82(0x1c4)]);let _0x363768=_0x33251c['addStack']();await this[_0x3cef2c(0x1d5,'qrq7')](_0x363768,_0x5dff2e['generalRatio'],_0x5dff2e[_0x296f82(0x153)],_0x5dff2e[_0x296f82(0x188)],this[_0x3cef2c(0x150,'Glu7')][_0x296f82(0xd3)],_0x373a1b[_0x296f82(0xd3)]);const _0x26c98a=_0x33251c['addStack']();_0x26c98a[_0x296f82(0x1fe)](),_0x26c98a[_0x296f82(0xa5)]();const _0x4569d7=_0x26c98a[_0x3cef2c(0x7d,'rB@^')](_0x296f82(0xc0)+_0x5dff2e[_0x296f82(0x203)]);return _0x4569d7['font']=Font['lightSystemFont'](0xa),_0x4569d7[_0x296f82(0xde)]=_0x373a1b['textColor'],_0x26c98a['addSpacer'](),_0x33251c;}async['renderMedium'](_0x30733b,_0xb542b4=0x3){const _0x2a86e1=_0x2fb5f1,_0x5db93b=_0x130fb4;let _0xb9bd4f=new ListWidget();return _0xb9bd4f[_0x5db93b(0x19d)](_0x2a86e1(0xe3,'H$ol')),_0xb9bd4f;}async[_0x130fb4(0x1ad)](_0x59090d){const _0x518697=_0x2fb5f1;return await this[_0x518697(0x84,'^PZp')](_0x59090d,0xa);}async[_0x2fb5f1(0x10b,'dL15')](){const _0x2d656b=_0x2fb5f1,_0x14840e=_0x130fb4;var _0x46d669={'code':0xc8,'data':{'username':'','use':0x0,'total':0x0,'generalUse':0x0,'generalTotal':0x0,'specialUse':0x0,'specialTotal':0x0,'balance':0x0,'voiceUsage':0x0,'voiceAmount':0x0,'createTime':_0x14840e(0x186)}};const _0x4aefc9=this['getSettings'](),_0x4450ac=_0x4aefc9[_0x2d656b(0x1b2,'^OT8')]||'';_0x4450ac!==''&&(_0x46d669=await this[_0x2d656b(0xe2,'H$KF')](_0x4450ac,!![],![]));var _0x1d6702=_0x46d669['data'];let _0x11bdf6=(_0x1d6702[_0x2d656b(0xaa,'dL15')]/0x64)[_0x14840e(0x170)](0x2),_0x44894b=(_0x1d6702[_0x14840e(0x1ff)]-_0x1d6702[_0x2d656b(0x1f0,'g@%[')])/_0x1d6702[_0x2d656b(0xb3,']KCE')]*0x64;_0x44894b=_0x44894b|0x0;let _0xa4067e=(_0x1d6702['generalTotal']-_0x1d6702[_0x14840e(0x110)])/_0x1d6702[_0x14840e(0x1e3)]*0x64;_0xa4067e=_0xa4067e|0x0;let _0x315b77=_0x1d6702[_0x14840e(0x1e3)]-_0x1d6702[_0x14840e(0x110)],_0x2329d9='KB';if(_0x315b77>0x100000)_0x315b77=_0x315b77/0x400/0x400,_0x2329d9='GB';else _0x315b77>0x400&&(_0x315b77=_0x315b77/0x400,_0x2329d9='MB');let _0x10b924=new Date(_0x1d6702[_0x2d656b(0x6f,'PY70')][_0x14840e(0x1f3)](/-/g,'/')),_0xdadf=_0x10b924[_0x2d656b(0x158,'ZS4h')]()|0x0,_0x3c8319=_0x10b924[_0x2d656b(0xb6,']Jpy')]()|0x0,_0xbac377=_0x10b924[_0x2d656b(0x9d,'h0Z0')]()|0x0,_0x14a5e7=_0x10b924[_0x14840e(0x175)]()|0x0,_0x33d25d=_0xbac377+':'+(_0x14a5e7[_0x2d656b(0x1e2,'$yfI')]()[_0x2d656b(0x19a,'MBRE')]>0x1?_0x14a5e7:'0'+_0x14a5e7),_0x33a79a=new Date();return(_0x33a79a[_0x2d656b(0x1af,'qrq7')]()!==_0x3c8319||_0x33a79a['getMonth']()!==_0xdadf)&&(_0x33d25d=(_0xdadf[_0x14840e(0xa6)]()['length']>0x1?_0xdadf:'0'+_0xdadf)+'/'+(_0x3c8319[_0x14840e(0xa6)]()['length']>0x1?_0x3c8319:'0'+_0x3c8319)+'\x20'+_0x33d25d),{'balance':_0x11bdf6,'totalRatio':_0x44894b[_0x2d656b(0xa0,'OE1v')](0x0),'generalRatio':_0xa4067e['toFixed'](0x0),'generalRemainder':_0x315b77[_0x14840e(0x170)](0x2),'generalUnit':_0x2329d9,'createTime':_0x33d25d};}async[_0x2fb5f1(0x1f2,']KCE')](_0x37fe6c){Safari['openInApp'](_0x37fe6c,![]);}async[_0x2fb5f1(0x136,'XK]t')](_0x9c2c3f,_0x8d6f8d,_0x35d97c,_0x134cfb,_0x5b026a,_0x2a0949){const _0x457ff1=_0x2fb5f1,_0x234c05=_0x130fb4,_0x58e5bc=_0x9c2c3f[_0x234c05(0x19e)](),_0x4d9cab=await this['makeCanvas']();_0x58e5bc[_0x457ff1(0x160,'%IA]')]=new Size(0x46,0x46),this[_0x457ff1(0xc7,'dDab')](_0x4d9cab,this['config']['dayRadiusOffset'],_0x8d6f8d*3.6,_0x2a0949),this['drawText'](_0x8d6f8d,_0x4d9cab,0x4b,0x12,_0x2a0949),this[_0x234c05(0xd2)]('%',_0x4d9cab,new Point(0x41,0x32),0xe,_0x2a0949),_0x58e5bc[_0x234c05(0x88)]=_0x4d9cab[_0x234c05(0x1fa)](),_0x58e5bc[_0x234c05(0x1b7)](0x14,0x0,0x0,0x0),_0x58e5bc[_0x234c05(0xa5)]();const _0x71ad3a=_0x5b026a['circleUrlIcon']?{'image':_0x5b026a[_0x457ff1(0x1bf,'^PZp')]}:SFSymbol[_0x457ff1(0x1b5,'^OT8')](_0x5b026a[_0x234c05(0x20d)]),_0x243634=_0x58e5bc[_0x234c05(0xc1)](_0x71ad3a[_0x457ff1(0x14c,'h0Z0')]);_0x243634[_0x234c05(0xfc)]=_0x2a0949['iconColor'],_0x243634[_0x234c05(0x81)]=new Size(0xf,0xf),_0x4d9cab[_0x234c05(0x16f)](_0x71ad3a[_0x234c05(0xfa)],new Rect(0x6e,0x50,0x3c,0x3c)),_0x58e5bc['addSpacer'](),_0x9c2c3f[_0x234c05(0xa5)](0x5);const _0x56165e=_0x9c2c3f[_0x234c05(0x19e)]();_0x56165e['size']=new Size(0x46,0x3c),_0x56165e[_0x234c05(0x1fe)](),_0x56165e[_0x457ff1(0x146,'H$ol')](),_0x56165e[_0x234c05(0xa5)](0xa);const _0x427ae4=_0x56165e[_0x234c05(0x19d)](_0x5b026a[_0x234c05(0x1d7)]);_0x427ae4['font']=Font[_0x457ff1(0x208,'Kz#z')](0xc),_0x427ae4['textColor']=_0x2a0949[_0x457ff1(0x98,'$yfI')],_0x56165e[_0x234c05(0xa5)](0xa);const _0x44755d=_0x56165e[_0x234c05(0x19e)]();_0x44755d[_0x457ff1(0x15e,'I!@o')]();const _0x2fad8b=_0x44755d[_0x234c05(0x19d)](''+_0x35d97c);_0x2fad8b[_0x234c05(0xeb)]=Font[_0x234c05(0x121)](0x10),_0x2fad8b[_0x234c05(0xde)]=_0x2a0949[_0x457ff1(0x140,'T86F')],_0x44755d['addSpacer'](0x2);const _0x332eb9=_0x44755d['addText'](''+_0x134cfb);return _0x332eb9[_0x457ff1(0x176,'AoC%')]=Font['mediumSystemFont'](0x8),_0x332eb9[_0x457ff1(0x92,'%IA]')]=_0x2a0949[_0x234c05(0xde)],_0x58e5bc;}async['makeCanvas'](){const _0x107b42=_0x2fb5f1,_0x3bf2a8=_0x130fb4,_0x4045d9=new DrawContext();return _0x4045d9[_0x3bf2a8(0x197)]=![],_0x4045d9[_0x107b42(0x1e4,'sxvP')]=!![],_0x4045d9[_0x3bf2a8(0xe9)]=new Size(this[_0x3bf2a8(0x1c0)]['canvSize'],this['config']['canvSize']),_0x4045d9;}[_0x2fb5f1(0x1f4,'CBCu')](_0x18ca47,_0x21570e,_0x56403d,_0x9e5b32){const _0xb0920f=_0x2fb5f1,_0xa19424=_0x130fb4;let _0x1decac=new Point(this[_0xa19424(0x1c0)][_0xb0920f(0x1ba,'c2rN')]/0x2,this[_0xa19424(0x1c0)][_0xa19424(0x180)]/0x2);const _0x6d2457=_0x1decac['x']-(this[_0xa19424(0x1c0)][_0xb0920f(0x16c,'H$ol')]-_0x21570e),_0x54d2ed=_0x1decac['y']-(this[_0xb0920f(0x1ec,'PiCE')][_0xa19424(0x16b)]-_0x21570e),_0x1e3f84=0x2*(this['config'][_0xb0920f(0xbc,'Kz#z')]-_0x21570e),_0x43ba41=new Rect(_0x6d2457,_0x54d2ed,_0x1e3f84,_0x1e3f84);_0x18ca47[_0xb0920f(0xf9,'c2rN')](_0x9e5b32[_0xb0920f(0x13e,'h0Z0')]),_0x18ca47[_0xb0920f(0x139,'AoC%')](0x2),_0x18ca47[_0xa19424(0x204)](_0x43ba41),_0x18ca47['setFillColor'](_0x9e5b32[_0xb0920f(0x165,'Lh9d')]);for(let _0x1487b6=0x0;_0x1487b6<_0x56403d;_0x1487b6++){const _0x170bd0=_0x1decac['x']+(this['config']['canvRadius']-_0x21570e)*this[_0xb0920f(0xb7,'c2rN')](_0x1487b6)-this[_0xa19424(0x1c0)][_0xb0920f(0x8d,'fLM0')]/0x2,_0x3130c6=_0x1decac['y']-(this['config'][_0xa19424(0x16b)]-_0x21570e)*this[_0xb0920f(0x89,'h0Z0')](_0x1487b6)-this['config'][_0xb0920f(0x199,'2RsE')]/0x2,_0x355973=new Rect(_0x170bd0,_0x3130c6,this['config'][_0xb0920f(0x1eb,'@uHp')],this[_0xb0920f(0xe5,'hP()')][_0xb0920f(0x1b9,'ZS4h')]);_0x18ca47[_0xb0920f(0x185,']KCE')](_0x355973);}return _0x18ca47;}[_0x2fb5f1(0x174,']Jpy')](_0x596dd2){const _0x11a009=_0x130fb4;return Math[_0x11a009(0xb1)](_0x596dd2*Math['PI']/0xb4);}[_0x130fb4(0x70)](_0x4b77ba){const _0x22e803=_0x2fb5f1;return Math[_0x22e803(0xbf,'%IA]')](_0x4b77ba*Math['PI']/0xb4);}['drawText'](_0x5c8ec8,_0x133b1e,_0x3c33c4,_0x381cd3,_0x302670){const _0x2bf8ce=_0x130fb4,_0x29864f=_0x2fb5f1,_0x434c64=new Rect(this['config'][_0x29864f(0xcd,'qrq7')]/0x2-0x14,_0x3c33c4-this['config'][_0x29864f(0x1c9,'dDab')]/0x2,this['config']['canvSize'],this[_0x29864f(0x166,'fLM0')][_0x29864f(0x1c9,'dDab')]);_0x133b1e[_0x2bf8ce(0x1d2)](_0x302670[_0x29864f(0xba,'^OT8')]),_0x133b1e[_0x29864f(0xa1,'5k(f')](Font[_0x29864f(0x76,'c2rN')](_0x381cd3)),_0x133b1e[_0x2bf8ce(0x189)](),_0x133b1e[_0x2bf8ce(0x13b)](''+_0x5c8ec8,_0x434c64);}[_0x130fb4(0xd2)](_0x117a8e,_0x6f4cc1,_0x14752d,_0x1f6849,_0x218dba){const _0x129399=_0x130fb4,_0x459254=_0x2fb5f1;_0x6f4cc1[_0x459254(0xcf,'OE1v')](_0x218dba[_0x129399(0xa7)]),_0x6f4cc1[_0x459254(0x1ae,'$yfI')](Font[_0x459254(0x8c,'Glu7')](_0x1f6849)),_0x6f4cc1['drawText'](_0x117a8e,_0x14752d);}async[_0x2fb5f1(0x169,'PY70')](){const _0x53c560=_0x2fb5f1,_0x246408=_0x130fb4,_0x2080a3=this[_0x246408(0x20c)](),_0x38c6d7=_0x2080a3[_0x246408(0x163)]||'';let _0x21a250=new Alert();_0x21a250[_0x246408(0xd0)]=_0x246408(0x97),_0x21a250['message']=_0x53c560(0x87,'EF@x'),_0x21a250[_0x53c560(0x1cd,']Jpy')]('',_0x38c6d7),_0x21a250[_0x246408(0x91)]('确认'),await _0x21a250[_0x53c560(0xbb,'H5VE')]();let _0x1fffb0=_0x21a250[_0x246408(0x122)](0x0);this[_0x246408(0x162)][_0x53c560(0x107,'EF@x')]=String(_0x1fffb0),this[_0x246408(0xea)]();}async[_0x2fb5f1(0xad,'L4qm')](){const _0xd3a65b=_0x130fb4,_0x43a2e3=_0x2fb5f1;let _0x577cb0=new Alert();const _0x30994f=this['getSettings'](),_0x1dfa28=Number(_0x30994f['theme']===null?0x2:_0x30994f[_0x43a2e3(0x96,'s#lt')]);_0x577cb0[_0x43a2e3(0x1bb,'CBCu')]='外观设置',_0x577cb0[_0x43a2e3(0x1f5,'Sp[$')]='自动适应，现版本有一个官方bug，暂不推荐使用',_0x577cb0[_0x43a2e3(0xa2,'MBRE')]((_0x1dfa28===0x0?'✅\x20':'')+_0x43a2e3(0x168,'ju^R')),_0x577cb0['addAction']((_0x1dfa28===0x1?'✅\x20':'')+'保持深色'),_0x577cb0['addAction']((_0x1dfa28===0x2?'✅\x20':'')+_0xd3a65b(0x117)),_0x577cb0[_0xd3a65b(0x91)]((_0x1dfa28===0x3?'✅\x20':'')+_0x43a2e3(0x8a,'XK]t')),_0x577cb0[_0x43a2e3(0x1da,'PiCE')]('取消操作');let _0x55c9aa=await _0x577cb0['presentSheet'](),_0x27e9cc;if(_0x55c9aa===-0x1)return;switch(_0x55c9aa){case 0x0:break;case 0x1:break;case 0x2:break;case 0x3:_0x27e9cc=await this[_0xd3a65b(0x127)]();break;default:return;}this[_0xd3a65b(0x162)][_0xd3a65b(0x173)]=_0x55c9aa,_0x27e9cc!==null&&(this[_0xd3a65b(0x162)][_0xd3a65b(0x16a)]=String(_0x27e9cc)),this[_0x43a2e3(0xe0,'2RsE')]();}async[_0x130fb4(0x127)](){const _0x5eba1b=_0x130fb4,_0x348e38=_0x2fb5f1,_0x1d9fbf=this[_0x348e38(0xf5,'XK]t')](),_0x4f6b47=_0x1d9fbf[_0x348e38(0xab,'Kz#z')]||_0x348e38(0x13c,'%IA]');let _0x47a7fc=new Alert();return _0x47a7fc[_0x348e38(0x138,'sxvP')]=_0x348e38(0x17c,'vcIb'),_0x47a7fc[_0x5eba1b(0x7a)]=_0x5eba1b(0x1b8),_0x47a7fc[_0x348e38(0x14b,'L4qm')](_0x348e38(0xd9,'[LQT'),_0x4f6b47),_0x47a7fc[_0x5eba1b(0x91)]('确认'),await _0x47a7fc['presentAlert'](),_0x47a7fc[_0x348e38(0x112,'L4qm')](0x0);}async['isUsingDark'](){const _0x3869ce=_0x2fb5f1,_0x42f47d=_0x130fb4,_0x23b1d7=this[_0x42f47d(0x20c)](),_0xc57626=Number(_0x23b1d7[_0x3869ce(0x1a2,'g@%[')]===null?0x2:_0x23b1d7[_0x42f47d(0x173)]);var _0x477247;switch(_0xc57626){case 0x0:_0x477247=![];break;case 0x1:_0x477247=!![];break;case 0x2:_0x477247=await Device[_0x42f47d(0xae)]();break;case 0x3:const _0xa6a468=_0x23b1d7[_0x3869ce(0x190,'T86F')]||'7:00-22:00';let _0x1c8652=_0xa6a468[_0x3869ce(0x1bc,'rB@^')]()[_0x3869ce(0xdb,'BfrT')](/^(\d{1,2}):(\d{1,2})-(\d{1,2}):(\d{1,2})$/);if(_0x1c8652===null){console['log']('外观设置-自适应\x20输入('+_0xa6a468+_0x42f47d(0x17b)),_0x477247=await Device[_0x42f47d(0xae)]();break;}let _0x5e6230=new Date(),_0x5314eb=Number(_0x1c8652[0x1]),_0x13a294=Number(_0x1c8652[0x2]),_0x263d08=Number(_0x1c8652[0x3]),_0x3b702b=Number(_0x1c8652[0x4]);_0x5314eb<_0x263d08||_0x5314eb===_0x263d08&&_0x13a294<_0x3b702b?_0x477247=!((_0x5e6230[_0x42f47d(0xd5)]()>_0x5314eb||_0x5e6230[_0x42f47d(0xd5)]()===_0x5314eb&&_0x5e6230[_0x42f47d(0x175)]()>_0x13a294)&&(_0x5e6230['getHours']()<_0x263d08||_0x5e6230[_0x42f47d(0xd5)]()===_0x263d08&&_0x5e6230[_0x3869ce(0x1b6,'L4qm')]()<_0x3b702b)):_0x477247=(_0x5e6230[_0x3869ce(0xf7,'sxvP')]()<_0x5314eb||_0x5e6230[_0x42f47d(0xd5)]()===_0x5314eb&&_0x5e6230[_0x42f47d(0x175)]()<_0x13a294)&&(_0x5e6230[_0x3869ce(0x167,'AoC%')]()>_0x263d08||_0x5e6230['getHours']()===_0x263d08&&_0x5e6230['getMinutes']()>_0x3b702b);break;default:_0x477247=await Device['isUsingDarkAppearance']();break;}return _0x477247;}};await Running(Widget);
+// 
+
+// 组件基础类
+const RUNTIME_VERSION = 20201209
+
+class Base {
+  constructor (arg="") {
+    this.arg = arg
+    this._actions = {}
+    this.init()
+  }
+
+  init (widgetFamily = config.widgetFamily) {
+    // 组件大小：small,medium,large
+    this.widgetFamily = widgetFamily
+    // 系统设置的key，这里分为三个类型：
+    // 1. 全局
+    // 2. 不同尺寸的小组件
+    // 3. 不同尺寸+小组件自定义的参数
+    // 当没有key2时，获取key1，没有key1获取全局key的设置
+    // this.SETTING_KEY = this.md5(Script.name()+'@'+this.widgetFamily+"@"+this.arg)
+    // this.SETTING_KEY1 = this.md5(Script.name()+'@'+this.widgetFamily)
+    this.SETTING_KEY = this.md5(Script.name())
+    // 文件管理器
+    // 提示：缓存数据不要用这个操作，这个是操作源码目录的，缓存建议存放在local temp目录中
+    this.FILE_MGR = FileManager[module.filename.includes('Documents/iCloud~') ? 'iCloud' : 'local']()
+    // 本地，用于存储图片等
+    this.FILE_MGR_LOCAL = FileManager.local()
+    this.BACKGROUND_KEY = this.FILE_MGR_LOCAL.joinPath(this.FILE_MGR_LOCAL.documentsDirectory(), `bg_${this.SETTING_KEY}.jpg`)
+    // this.BACKGROUND_KEY1 = this.FILE_MGR_LOCAL.joinPath(this.FILE_MGR_LOCAL.documentsDirectory(), `bg_${this.SETTING_KEY1}.jpg`)
+    // this.BACKGROUND_KEY2 = this.FILE_MGR_LOCAL.joinPath(this.FILE_MGR_LOCAL.documentsDirectory(), `bg_${this.SETTING_KEY2}.jpg`)
+    // // 插件设置
+    this.settings = this.getSettings()
+  }
+
+  /**
+   * 注册点击操作菜单
+   * @param {string} name 操作函数名
+   * @param {func} func 点击后执行的函数
+   */
+  registerAction (name, func) {
+    this._actions[name] = func.bind(this)
+  }
+
+  /**
+   * 生成操作回调URL，点击后执行本脚本，并触发相应操作
+   * @param {string} name 操作的名称
+   * @param {string} data 传递的数据
+   */
+  actionUrl (name = '', data = '') {
+    let u = URLScheme.forRunningScript()
+    let q = `act=${encodeURIComponent(name)}&data=${encodeURIComponent(data)}&__arg=${encodeURIComponent(this.arg)}&__size=${this.widgetFamily}`
+    let result = ''
+    if (u.includes('run?')) {
+      result = `${u}&${q}`
+    } else {
+      result = `${u}?${q}`
+    }
+    return result
+  }
+
+  /**
+   * base64 编码字符串
+   * @param {string} str 要编码的字符串
+   */
+  base64Encode (str) {
+    const data = Data.fromString(str)
+    return data.toBase64String()
+  }
+
+  /**
+   * base64解码数据 返回字符串
+   * @param {string} b64 base64编码的数据
+   */
+  base64Decode (b64) {
+    const data = Data.fromBase64String(b64)
+    return data.toRawString()
+  }
+
+  /**
+   * md5 加密字符串
+   * @param {string} str 要加密成md5的数据
+   */
+  md5 (str) {
+    function d(n,t){var r=(65535&n)+(65535&t);return(n>>16)+(t>>16)+(r>>16)<<16|65535&r}function f(n,t,r,e,o,u){return d((c=d(d(t,n),d(e,u)))<<(f=o)|c>>>32-f,r);var c,f}function l(n,t,r,e,o,u,c){return f(t&r|~t&e,n,t,o,u,c)}function v(n,t,r,e,o,u,c){return f(t&e|r&~e,n,t,o,u,c)}function g(n,t,r,e,o,u,c){return f(t^r^e,n,t,o,u,c)}function m(n,t,r,e,o,u,c){return f(r^(t|~e),n,t,o,u,c)}function i(n,t){var r,e,o,u;n[t>>5]|=128<<t%32,n[14+(t+64>>>9<<4)]=t;for(var c=1732584193,f=-271733879,i=-1732584194,a=271733878,h=0;h<n.length;h+=16)c=l(r=c,e=f,o=i,u=a,n[h],7,-680876936),a=l(a,c,f,i,n[h+1],12,-389564586),i=l(i,a,c,f,n[h+2],17,606105819),f=l(f,i,a,c,n[h+3],22,-1044525330),c=l(c,f,i,a,n[h+4],7,-176418897),a=l(a,c,f,i,n[h+5],12,1200080426),i=l(i,a,c,f,n[h+6],17,-1473231341),f=l(f,i,a,c,n[h+7],22,-45705983),c=l(c,f,i,a,n[h+8],7,1770035416),a=l(a,c,f,i,n[h+9],12,-1958414417),i=l(i,a,c,f,n[h+10],17,-42063),f=l(f,i,a,c,n[h+11],22,-1990404162),c=l(c,f,i,a,n[h+12],7,1804603682),a=l(a,c,f,i,n[h+13],12,-40341101),i=l(i,a,c,f,n[h+14],17,-1502002290),c=v(c,f=l(f,i,a,c,n[h+15],22,1236535329),i,a,n[h+1],5,-165796510),a=v(a,c,f,i,n[h+6],9,-1069501632),i=v(i,a,c,f,n[h+11],14,643717713),f=v(f,i,a,c,n[h],20,-373897302),c=v(c,f,i,a,n[h+5],5,-701558691),a=v(a,c,f,i,n[h+10],9,38016083),i=v(i,a,c,f,n[h+15],14,-660478335),f=v(f,i,a,c,n[h+4],20,-405537848),c=v(c,f,i,a,n[h+9],5,568446438),a=v(a,c,f,i,n[h+14],9,-1019803690),i=v(i,a,c,f,n[h+3],14,-187363961),f=v(f,i,a,c,n[h+8],20,1163531501),c=v(c,f,i,a,n[h+13],5,-1444681467),a=v(a,c,f,i,n[h+2],9,-51403784),i=v(i,a,c,f,n[h+7],14,1735328473),c=g(c,f=v(f,i,a,c,n[h+12],20,-1926607734),i,a,n[h+5],4,-378558),a=g(a,c,f,i,n[h+8],11,-2022574463),i=g(i,a,c,f,n[h+11],16,1839030562),f=g(f,i,a,c,n[h+14],23,-35309556),c=g(c,f,i,a,n[h+1],4,-1530992060),a=g(a,c,f,i,n[h+4],11,1272893353),i=g(i,a,c,f,n[h+7],16,-155497632),f=g(f,i,a,c,n[h+10],23,-1094730640),c=g(c,f,i,a,n[h+13],4,681279174),a=g(a,c,f,i,n[h],11,-358537222),i=g(i,a,c,f,n[h+3],16,-722521979),f=g(f,i,a,c,n[h+6],23,76029189),c=g(c,f,i,a,n[h+9],4,-640364487),a=g(a,c,f,i,n[h+12],11,-421815835),i=g(i,a,c,f,n[h+15],16,530742520),c=m(c,f=g(f,i,a,c,n[h+2],23,-995338651),i,a,n[h],6,-198630844),a=m(a,c,f,i,n[h+7],10,1126891415),i=m(i,a,c,f,n[h+14],15,-1416354905),f=m(f,i,a,c,n[h+5],21,-57434055),c=m(c,f,i,a,n[h+12],6,1700485571),a=m(a,c,f,i,n[h+3],10,-1894986606),i=m(i,a,c,f,n[h+10],15,-1051523),f=m(f,i,a,c,n[h+1],21,-2054922799),c=m(c,f,i,a,n[h+8],6,1873313359),a=m(a,c,f,i,n[h+15],10,-30611744),i=m(i,a,c,f,n[h+6],15,-1560198380),f=m(f,i,a,c,n[h+13],21,1309151649),c=m(c,f,i,a,n[h+4],6,-145523070),a=m(a,c,f,i,n[h+11],10,-1120210379),i=m(i,a,c,f,n[h+2],15,718787259),f=m(f,i,a,c,n[h+9],21,-343485551),c=d(c,r),f=d(f,e),i=d(i,o),a=d(a,u);return[c,f,i,a]}function a(n){for(var t="",r=32*n.length,e=0;e<r;e+=8)t+=String.fromCharCode(n[e>>5]>>>e%32&255);return t}function h(n){var t=[];for(t[(n.length>>2)-1]=void 0,e=0;e<t.length;e+=1)t[e]=0;for(var r=8*n.length,e=0;e<r;e+=8)t[e>>5]|=(255&n.charCodeAt(e/8))<<e%32;return t}function e(n){for(var t,r="0123456789abcdef",e="",o=0;o<n.length;o+=1)t=n.charCodeAt(o),e+=r.charAt(t>>>4&15)+r.charAt(15&t);return e}function r(n){return unescape(encodeURIComponent(n))}function o(n){return a(i(h(t=r(n)),8*t.length));var t}function u(n,t){return function(n,t){var r,e,o=h(n),u=[],c=[];for(u[15]=c[15]=void 0,16<o.length&&(o=i(o,8*n.length)),r=0;r<16;r+=1)u[r]=909522486^o[r],c[r]=1549556828^o[r];return e=i(u.concat(h(t)),512+8*t.length),a(i(c.concat(e),640))}(r(n),r(t))}function t(n,t,r){return t?r?u(t,n):e(u(t,n)):r?o(n):e(o(n))}
+    return t(str)
+  }
+
+
+  /**
+   * HTTP 请求接口
+   * @param {string} url 请求的url
+   * @param {bool} json 返回数据是否为 json，默认 true
+   * @param {bool} useCache 是否采用离线缓存（请求失败后获取上一次结果），
+   * @return {string | json | null}
+   */
+  async httpGet (url, json = true, useCache = false) {
+    let data = null
+    const cacheKey = this.md5(url)
+    if (useCache && Keychain.contains(cacheKey)) {
+      let cache = Keychain.get(cacheKey)
+      return json ? JSON.parse(cache) : cache
+    }
+    try {
+      let req = new Request(url)
+      data = await (json ? req.loadJSON() : req.loadString())
+    } catch (e) {}
+    // 判断数据是否为空（加载失败）
+    if (!data && Keychain.contains(cacheKey)) {
+      // 判断是否有缓存
+      let cache = Keychain.get(cacheKey)
+      return json ? JSON.parse(cache) : cache
+    }
+    // 存储缓存
+    Keychain.set(cacheKey, json ? JSON.stringify(data) : data)
+    return data
+  }
+
+  async httpPost (url, data) {}
+
+  /**
+   * 获取远程图片内容
+   * @param {string} url 图片地址
+   * @param {bool} useCache 是否使用缓存（请求失败时获取本地缓存）
+   */
+  async getImageByUrl (url, useCache = true) {
+    const cacheKey = this.md5(url)
+    const cacheFile = FileManager.local().joinPath(FileManager.local().temporaryDirectory(), cacheKey)
+    // 判断是否有缓存
+    if (useCache && FileManager.local().fileExists(cacheFile)) {
+      return Image.fromFile(cacheFile)
+    }
+    try {
+      const req = new Request(url)
+      const img = await req.loadImage()
+      // 存储到缓存
+      FileManager.local().writeImage(cacheFile, img)
+      return img
+    } catch (e) {
+      // 没有缓存+失败情况下，返回自定义的绘制图片（红色背景）
+      let ctx = new DrawContext()
+      ctx.size = new Size(100, 100)
+      ctx.setFillColor(Color.red())
+      ctx.fillRect(new Rect(0, 0, 100, 100))
+      return await ctx.getImage()
+    }
+  }
+
+  /**
+   * base64 转 image，不需要带有""
+   * @param base64
+   * @returns {Promise<*>}
+   */
+  async base64ToImage(base64){
+    if ( base64.indexOf(";base64,") >= 0 ) {
+      let bs = base64.split(";base64,")
+      base64 = bs[bs.length-1]
+    }
+    const d = Data.fromBase64String(base64)
+    return  Image.fromData(d)
+  }
+
+  /**
+   * 渲染标题内容
+   * @param {object} widget 组件对象
+   * @param {string} icon 图标地址
+   * @param {string} title 标题内容
+   * @param {bool|color} color 字体的颜色（自定义背景时使用，默认系统）
+   */
+  async renderHeader (widget, icon, title, color = false) {
+    widget.addSpacer(10)
+    let header = widget.addStack()
+    header.centerAlignContent()
+    let _icon = header.addImage(await this.getImageByUrl(icon))
+    _icon.imageSize = new Size(14, 14)
+    _icon.cornerRadius = 4
+    header.addSpacer(10)
+    let _title = header.addText(title)
+    if (color) _title.textColor = color
+    _title.textOpacity = 0.7
+    _title.font = Font.boldSystemFont(12)
+    widget.addSpacer(10)
+    return widget
+  }
+
+  /**
+   * 获取截图中的组件剪裁图
+   * 可用作透明背景
+   * 返回图片image对象
+   * 代码改自：https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9
+   * @param {string} title 开始处理前提示用户截图的信息，可选（适合用在组件自定义透明背景时提示）
+   */
+  async getWidgetScreenShot (title = null) {
+    // Generate an alert with the provided array of options.
+    async function generateAlert(message,options) {
+
+      let alert = new Alert()
+      alert.message = message
+
+      for (const option of options) {
+        alert.addAction(option)
+      }
+
+      let response = await alert.presentAlert()
+      return response
+    }
+
+    // Crop an image into the specified rect.
+    function cropImage(img,rect) {
+
+      let draw = new DrawContext()
+      draw.size = new Size(rect.width, rect.height)
+
+      draw.drawImageAtPoint(img,new Point(-rect.x, -rect.y))
+      return draw.getImage()
+    }
+
+    async function blurImage(img,style) {
+      const blur = 150
+      const js = `
+var mul_table=[512,512,456,512,328,456,335,512,405,328,271,456,388,335,292,512,454,405,364,328,298,271,496,456,420,388,360,335,312,292,273,512,482,454,428,405,383,364,345,328,312,298,284,271,259,496,475,456,437,420,404,388,374,360,347,335,323,312,302,292,282,273,265,512,497,482,468,454,441,428,417,405,394,383,373,364,354,345,337,328,320,312,305,298,291,284,278,271,265,259,507,496,485,475,465,456,446,437,428,420,412,404,396,388,381,374,367,360,354,347,341,335,329,323,318,312,307,302,297,292,287,282,278,273,269,265,261,512,505,497,489,482,475,468,461,454,447,441,435,428,422,417,411,405,399,394,389,383,378,373,368,364,359,354,350,345,341,337,332,328,324,320,316,312,309,305,301,298,294,291,287,284,281,278,274,271,268,265,262,259,257,507,501,496,491,485,480,475,470,465,460,456,451,446,442,437,433,428,424,420,416,412,408,404,400,396,392,388,385,381,377,374,370,367,363,360,357,354,350,347,344,341,338,335,332,329,326,323,320,318,315,312,310,307,304,302,299,297,294,292,289,287,285,282,280,278,275,273,271,269,267,265,263,261,259];var shg_table=[9,11,12,13,13,14,14,15,15,15,15,16,16,16,16,17,17,17,17,17,17,17,18,18,18,18,18,18,18,18,18,19,19,19,19,19,19,19,19,19,19,19,19,19,19,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24];function stackBlurCanvasRGB(id,top_x,top_y,width,height,radius){if(isNaN(radius)||radius<1)return;radius|=0;var canvas=document.getElementById(id);var context=canvas.getContext("2d");var imageData;try{try{imageData=context.getImageData(top_x,top_y,width,height)}catch(e){try{netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");imageData=context.getImageData(top_x,top_y,width,height)}catch(e){alert("Cannot access local image");throw new Error("unable to access local image data: "+e);return}}}catch(e){alert("Cannot access image");throw new Error("unable to access image data: "+e);}var pixels=imageData.data;var x,y,i,p,yp,yi,yw,r_sum,g_sum,b_sum,r_out_sum,g_out_sum,b_out_sum,r_in_sum,g_in_sum,b_in_sum,pr,pg,pb,rbs;var div=radius+radius+1;var w4=width<<2;var widthMinus1=width-1;var heightMinus1=height-1;var radiusPlus1=radius+1;var sumFactor=radiusPlus1*(radiusPlus1+1)/2;var stackStart=new BlurStack();var stack=stackStart;for(i=1;i<div;i++){stack=stack.next=new BlurStack();if(i==radiusPlus1)var stackEnd=stack}stack.next=stackStart;var stackIn=null;var stackOut=null;yw=yi=0;var mul_sum=mul_table[radius];var shg_sum=shg_table[radius];for(y=0;y<height;y++){r_in_sum=g_in_sum=b_in_sum=r_sum=g_sum=b_sum=0;r_out_sum=radiusPlus1*(pr=pixels[yi]);g_out_sum=radiusPlus1*(pg=pixels[yi+1]);b_out_sum=radiusPlus1*(pb=pixels[yi+2]);r_sum+=sumFactor*pr;g_sum+=sumFactor*pg;b_sum+=sumFactor*pb;stack=stackStart;for(i=0;i<radiusPlus1;i++){stack.r=pr;stack.g=pg;stack.b=pb;stack=stack.next}for(i=1;i<radiusPlus1;i++){p=yi+((widthMinus1<i?widthMinus1:i)<<2);r_sum+=(stack.r=(pr=pixels[p]))*(rbs=radiusPlus1-i);g_sum+=(stack.g=(pg=pixels[p+1]))*rbs;b_sum+=(stack.b=(pb=pixels[p+2]))*rbs;r_in_sum+=pr;g_in_sum+=pg;b_in_sum+=pb;stack=stack.next}stackIn=stackStart;stackOut=stackEnd;for(x=0;x<width;x++){pixels[yi]=(r_sum*mul_sum)>>shg_sum;pixels[yi+1]=(g_sum*mul_sum)>>shg_sum;pixels[yi+2]=(b_sum*mul_sum)>>shg_sum;r_sum-=r_out_sum;g_sum-=g_out_sum;b_sum-=b_out_sum;r_out_sum-=stackIn.r;g_out_sum-=stackIn.g;b_out_sum-=stackIn.b;p=(yw+((p=x+radius+1)<widthMinus1?p:widthMinus1))<<2;r_in_sum+=(stackIn.r=pixels[p]);g_in_sum+=(stackIn.g=pixels[p+1]);b_in_sum+=(stackIn.b=pixels[p+2]);r_sum+=r_in_sum;g_sum+=g_in_sum;b_sum+=b_in_sum;stackIn=stackIn.next;r_out_sum+=(pr=stackOut.r);g_out_sum+=(pg=stackOut.g);b_out_sum+=(pb=stackOut.b);r_in_sum-=pr;g_in_sum-=pg;b_in_sum-=pb;stackOut=stackOut.next;yi+=4}yw+=width}for(x=0;x<width;x++){g_in_sum=b_in_sum=r_in_sum=g_sum=b_sum=r_sum=0;yi=x<<2;r_out_sum=radiusPlus1*(pr=pixels[yi]);g_out_sum=radiusPlus1*(pg=pixels[yi+1]);b_out_sum=radiusPlus1*(pb=pixels[yi+2]);r_sum+=sumFactor*pr;g_sum+=sumFactor*pg;b_sum+=sumFactor*pb;stack=stackStart;for(i=0;i<radiusPlus1;i++){stack.r=pr;stack.g=pg;stack.b=pb;stack=stack.next}yp=width;for(i=1;i<=radius;i++){yi=(yp+x)<<2;r_sum+=(stack.r=(pr=pixels[yi]))*(rbs=radiusPlus1-i);g_sum+=(stack.g=(pg=pixels[yi+1]))*rbs;b_sum+=(stack.b=(pb=pixels[yi+2]))*rbs;r_in_sum+=pr;g_in_sum+=pg;b_in_sum+=pb;stack=stack.next;if(i<heightMinus1){yp+=width}}yi=x;stackIn=stackStart;stackOut=stackEnd;for(y=0;y<height;y++){p=yi<<2;pixels[p]=(r_sum*mul_sum)>>shg_sum;pixels[p+1]=(g_sum*mul_sum)>>shg_sum;pixels[p+2]=(b_sum*mul_sum)>>shg_sum;r_sum-=r_out_sum;g_sum-=g_out_sum;b_sum-=b_out_sum;r_out_sum-=stackIn.r;g_out_sum-=stackIn.g;b_out_sum-=stackIn.b;p=(x+(((p=y+radiusPlus1)<heightMinus1?p:heightMinus1)*width))<<2;r_sum+=(r_in_sum+=(stackIn.r=pixels[p]));g_sum+=(g_in_sum+=(stackIn.g=pixels[p+1]));b_sum+=(b_in_sum+=(stackIn.b=pixels[p+2]));stackIn=stackIn.next;r_out_sum+=(pr=stackOut.r);g_out_sum+=(pg=stackOut.g);b_out_sum+=(pb=stackOut.b);r_in_sum-=pr;g_in_sum-=pg;b_in_sum-=pb;stackOut=stackOut.next;yi+=width}}context.putImageData(imageData,top_x,top_y)}function BlurStack(){this.r=0;this.g=0;this.b=0;this.a=0;this.next=null}
+      // https://gist.github.com/mjackson/5311256
+    
+      function rgbToHsl(r, g, b){
+          r /= 255, g /= 255, b /= 255;
+          var max = Math.max(r, g, b), min = Math.min(r, g, b);
+          var h, s, l = (max + min) / 2;
+    
+          if(max == min){
+              h = s = 0; // achromatic
+          }else{
+              var d = max - min;
+              s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+              switch(max){
+                  case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+                  case g: h = (b - r) / d + 2; break;
+                  case b: h = (r - g) / d + 4; break;
+              }
+              h /= 6;
+          }
+    
+          return [h, s, l];
+      }
+    
+      function hslToRgb(h, s, l){
+          var r, g, b;
+    
+          if(s == 0){
+              r = g = b = l; // achromatic
+          }else{
+              var hue2rgb = function hue2rgb(p, q, t){
+                  if(t < 0) t += 1;
+                  if(t > 1) t -= 1;
+                  if(t < 1/6) return p + (q - p) * 6 * t;
+                  if(t < 1/2) return q;
+                  if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+                  return p;
+              }
+    
+              var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+              var p = 2 * l - q;
+              r = hue2rgb(p, q, h + 1/3);
+              g = hue2rgb(p, q, h);
+              b = hue2rgb(p, q, h - 1/3);
+          }
+    
+          return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+      }
+      
+      function lightBlur(hsl) {
+      
+        // Adjust the luminance.
+        let lumCalc = 0.35 + (0.3 / hsl[2]);
+        if (lumCalc < 1) { lumCalc = 1; }
+        else if (lumCalc > 3.3) { lumCalc = 3.3; }
+        const l = hsl[2] * lumCalc;
+        
+        // Adjust the saturation. 
+        const colorful = 2 * hsl[1] * l;
+        const s = hsl[1] * colorful * 1.5;
+        
+        return [hsl[0],s,l];
+        
+      }
+      
+      function darkBlur(hsl) {
+    
+        // Adjust the saturation. 
+        const colorful = 2 * hsl[1] * hsl[2];
+        const s = hsl[1] * (1 - hsl[2]) * 3;
+        
+        return [hsl[0],s,hsl[2]];
+        
+      }
+    
+      // Set up the canvas.
+      const img = document.getElementById("blurImg");
+      const canvas = document.getElementById("mainCanvas");
+    
+      const w = img.naturalWidth;
+      const h = img.naturalHeight;
+    
+      canvas.style.width  = w + "px";
+      canvas.style.height = h + "px";
+      canvas.width = w;
+      canvas.height = h;
+    
+      const context = canvas.getContext("2d");
+      context.clearRect( 0, 0, w, h );
+      context.drawImage( img, 0, 0 );
+      
+      // Get the image data from the context.
+      var imageData = context.getImageData(0,0,w,h);
+      var pix = imageData.data;
+      
+      var isDark = "${style}" == "dark";
+      var imageFunc = isDark ? darkBlur : lightBlur;
+    
+      for (let i=0; i < pix.length; i+=4) {
+    
+        // Convert to HSL.
+        let hsl = rgbToHsl(pix[i],pix[i+1],pix[i+2]);
+        
+        // Apply the image function.
+        hsl = imageFunc(hsl);
+      
+        // Convert back to RGB.
+        const rgb = hslToRgb(hsl[0], hsl[1], hsl[2]);
+      
+        // Put the values back into the data.
+        pix[i] = rgb[0];
+        pix[i+1] = rgb[1];
+        pix[i+2] = rgb[2];
+    
+      }
+    
+      // Draw over the old image.
+      context.putImageData(imageData,0,0);
+    
+      // Blur the image.
+      stackBlurCanvasRGB("mainCanvas", 0, 0, w, h, ${blur});
+      
+      // Perform the additional processing for dark images.
+      if (isDark) {
+      
+        // Draw the hard light box over it.
+        context.globalCompositeOperation = "hard-light";
+        context.fillStyle = "rgba(55,55,55,0.2)";
+        context.fillRect(0, 0, w, h);
+    
+        // Draw the soft light box over it.
+        context.globalCompositeOperation = "soft-light";
+        context.fillStyle = "rgba(55,55,55,1)";
+        context.fillRect(0, 0, w, h);
+    
+        // Draw the regular box over it.
+        context.globalCompositeOperation = "source-over";
+        context.fillStyle = "rgba(55,55,55,0.4)";
+        context.fillRect(0, 0, w, h);
+      
+      // Otherwise process light images.
+      } else {
+        context.fillStyle = "rgba(255,255,255,0.4)";
+        context.fillRect(0, 0, w, h);
+      }
+    
+      // Return a base64 representation.
+      canvas.toDataURL(); 
+      `
+
+      // Convert the images and create the HTML.
+      let blurImgData = Data.fromPNG(img).toBase64String()
+      let html = `
+      <img id="blurImg" src="data:image/png;base64,${blurImgData}" />
+      <canvas id="mainCanvas" />
+      `
+
+      // Make the web view and get its return value.
+      let view = new WebView()
+      await view.loadHTML(html)
+      let returnValue = await view.evaluateJavaScript(js)
+
+      // Remove the data type from the string and convert to data.
+      let imageDataString = returnValue.slice(22)
+      let imageData = Data.fromBase64String(imageDataString)
+
+      // Convert to image and crop before returning.
+      let imageFromData = Image.fromData(imageData)
+      // return cropImage(imageFromData)
+      return imageFromData
+    }
+
+
+    // Pixel sizes and positions for widgets on all supported phones.
+    function phoneSizes() {
+      let phones = {
+        // 12 and 12 Pro
+        "2532": {
+          small:  474,
+          medium: 1014,
+          large:  1062,
+          left:  78,
+          right: 618,
+          top:    231,
+          middle: 819,
+          bottom: 1407
+        },
+
+        // 11 Pro Max, XS Max
+        "2688": {
+          small:  507,
+          medium: 1080,
+          large:  1137,
+          left:  81,
+          right: 654,
+          top:    228,
+          middle: 858,
+          bottom: 1488
+        },
+
+        // 11, XR
+        "1792": {
+          small:  338,
+          medium: 720,
+          large:  758,
+          left:  54,
+          right: 436,
+          top:    160,
+          middle: 580,
+          bottom: 1000
+        },
+
+
+        // 11 Pro, XS, X
+        "2436": {
+          small:  465,
+          medium: 987,
+          large:  1035,
+          left:  69,
+          right: 591,
+          top:    213,
+          middle: 783,
+          bottom: 1353
+        },
+
+        // Plus phones
+        "2208": {
+          small:  471,
+          medium: 1044,
+          large:  1071,
+          left:  99,
+          right: 672,
+          top:    114,
+          middle: 696,
+          bottom: 1278
+        },
+
+        // SE2 and 6/6S/7/8
+        "1334": {
+          small:  296,
+          medium: 642,
+          large:  648,
+          left:  54,
+          right: 400,
+          top:    60,
+          middle: 412,
+          bottom: 764
+        },
+
+
+        // SE1
+        "1136": {
+          small:  282,
+          medium: 584,
+          large:  622,
+          left: 30,
+          right: 332,
+          top:  59,
+          middle: 399,
+          bottom: 399
+        },
+
+        // 11 and XR in Display Zoom mode
+        "1624": {
+          small: 310,
+          medium: 658,
+          large: 690,
+          left: 46,
+          right: 394,
+          top: 142,
+          middle: 522,
+          bottom: 902
+        },
+
+        // Plus in Display Zoom mode
+        "2001" : {
+          small: 444,
+          medium: 963,
+          large: 972,
+          left: 81,
+          right: 600,
+          top: 90,
+          middle: 618,
+          bottom: 1146
+        }
+      }
+      return phones
+    }
+
+    var message
+    message = title || "开始之前，请先前往桌面,截取空白界面的截图。然后回来继续"
+    let exitOptions = ["我已截图","前去截图 >"]
+    let shouldExit = await generateAlert(message,exitOptions)
+    if (shouldExit) return
+
+    // Get screenshot and determine phone size.
+    let img = await Photos.fromLibrary()
+    let height = img.size.height
+    let phone = phoneSizes()[height]
+    if (!phone) {
+      message = "好像您选择的照片不是正确的截图，或者您的机型我们暂时不支持。点击确定前往社区讨论"
+      let _id = await generateAlert(message,["帮助", "取消"])
+      if (_id===0) Safari.openInApp('https://support.qq.com/products/287371', false)
+      return
+    }
+
+    // Prompt for widget size and position.
+    message = "截图中要设置透明背景组件的尺寸类型是？"
+    let sizes = ["小尺寸","中尺寸","大尺寸"]
+    let size = await generateAlert(message,sizes)
+    let widgetSize = sizes[size]
+
+    message = "要设置透明背景的小组件在哪个位置？"
+    message += (height == 1136 ? " （备注：当前设备只支持两行小组件，所以下边选项中的「中间」和「底部」的选项是一致的）" : "")
+
+    // Determine image crop based on phone size.
+    let crop = { w: "", h: "", x: "", y: "" }
+    if (widgetSize == "小尺寸") {
+      crop.w = phone.small
+      crop.h = phone.small
+      let positions = ["左上角","右上角","中间左","中间右","左下角","右下角"]
+      let _posotions = ["Top left","Top right","Middle left","Middle right","Bottom left","Bottom right"]
+      let position = await generateAlert(message,positions)
+
+      // Convert the two words into two keys for the phone size dictionary.
+      let keys = _posotions[position].toLowerCase().split(' ')
+      crop.y = phone[keys[0]]
+      crop.x = phone[keys[1]]
+
+    } else if (widgetSize == "中尺寸") {
+      crop.w = phone.medium
+      crop.h = phone.small
+
+      // Medium and large widgets have a fixed x-value.
+      crop.x = phone.left
+      let positions = ["顶部","中间","底部"]
+      let _positions = ["Top","Middle","Bottom"]
+      let position = await generateAlert(message,positions)
+      let key = _positions[position].toLowerCase()
+      crop.y = phone[key]
+
+    } else if(widgetSize == "大尺寸") {
+      crop.w = phone.medium
+      crop.h = phone.large
+      crop.x = phone.left
+      let positions = ["顶部","底部"]
+      let position = await generateAlert(message,positions)
+
+      // Large widgets at the bottom have the "middle" y-value.
+      crop.y = position ? phone.middle : phone.top
+    }
+
+    // 透明/模糊选项
+    message = "需要给背景图片加什么显示效果？"
+    let blurOptions = ["透明", "白色 模糊", "黑色 模糊"]
+    let blurred = await generateAlert(message, blurOptions)
+
+    // Crop image and finalize the widget.
+    if (blurred) {
+      const style = (blurred === 1) ? 'light' : 'dark'
+      img = await blurImage(img, style)
+    }
+    let imgCrop = cropImage(img, new Rect(crop.x,crop.y,crop.w,crop.h))
+
+
+    return imgCrop
+
+  }
+
+  /**
+   * 弹出一个通知
+   * @param {string} title 通知标题
+   * @param {string} body 通知内容
+   * @param {string} url 点击后打开的URL
+   */
+  async notify (title, body, url, opts = {}) {
+    let n = new Notification()
+    n = Object.assign(n, opts);
+    n.title = title
+    n.body = body
+    if (url) n.openURL = url
+    return await n.schedule()
+  }
+
+
+  /**
+   * 给图片加一层半透明遮罩
+   * @param {Image} img 要处理的图片
+   * @param {string} color 遮罩背景颜色
+   * @param {float} opacity 透明度
+   */
+  async shadowImage (img, color = '#000000', opacity = 0.7) {
+    let ctx = new DrawContext()
+    // 获取图片的尺寸
+    ctx.size = img.size
+
+    ctx.drawImageInRect(img, new Rect(0, 0, img.size['width'], img.size['height']))
+    ctx.setFillColor(new Color(color, opacity))
+    ctx.fillRect(new Rect(0, 0, img.size['width'], img.size['height']))
+
+    let res = await ctx.getImage()
+    return res
+  }
+
+  /**
+   * 获取当前插件的设置
+   * @param {boolean} json 是否为json格式
+   */
+  getSettings(json=true){
+    let res=json?{}:""
+    let cache=""
+    // if (global && Keychain.contains(this.SETTING_KEY2)) {
+    //   cache = Keychain.get(this.SETTING_KEY2)
+    // } else if (Keychain.contains(this.SETTING_KEY)) {
+    //   cache = Keychain.get(this.SETTING_KEY)
+    // } else if (Keychain.contains(this.SETTING_KEY1)) {
+    //   cache = Keychain.get(this.SETTING_KEY1)
+    // } else if (Keychain.contains(this.SETTING_KEY2)){
+    if (Keychain.contains(this.SETTING_KEY)) {
+      cache= Keychain.get(this.SETTING_KEY)
+    }
+      if (json){
+        try {
+          res=JSON.parse(cache)
+        } catch (e) {}
+      }else{
+        res=cache
+      }
+
+    return res
+  }
+
+  /**
+   * 存储当前设置
+   * @param {bool} notify 是否通知提示
+   */
+  saveSettings(notify=true){
+    let res= (typeof this.settings==="object")?JSON.stringify(this.settings):String(this.settings)
+    Keychain.set(this.SETTING_KEY, res)
+    if (notify) this.notify("设置成功","桌面组件稍后将自动刷新")
+  }
+
+  /**
+   * 获取当前插件是否有自定义背景图片
+   * @reutrn img | false
+   */
+  getBackgroundImage () {
+    // 如果有KEY则优先加载，key>key1>key2
+    // key2是全局
+    let result = null
+    if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY)) {
+      result = Image.fromFile(this.BACKGROUND_KEY)
+    // } else if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY1)) {
+    //   result = Image.fromFile(this.BACKGROUND_KEY1)
+    // } else if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY2)) {
+    //   result = Image.fromFile(this.BACKGROUND_KEY2)
+    }
+    return result
+  }
+
+  /**
+   * 设置当前组件的背景图片
+   * @param {image} img
+   */
+  setBackgroundImage (img, notify = true) {
+    if (!img) {
+      // 移除背景
+      if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY)) {
+        this.FILE_MGR_LOCAL.remove(this.BACKGROUND_KEY)
+      // } else if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY1)) {
+      //   this.FILE_MGR_LOCAL.remove(this.BACKGROUND_KEY1)
+      // } else if (this.FILE_MGR_LOCAL.fileExists(this.BACKGROUND_KEY2)) {
+      //   this.FILE_MGR_LOCAL.remove(this.BACKGROUND_KEY2)
+      }
+      if (notify) this.notify("移除成功", "小组件背景图片已移除，稍后刷新生效")
+    } else {
+      // 设置背景
+      // 全部设置一遍，
+      this.FILE_MGR_LOCAL.writeImage(this.BACKGROUND_KEY, img)
+      // this.FILE_MGR_LOCAL.writeImage(this.BACKGROUND_KEY1, img)
+      // this.FILE_MGR_LOCAL.writeImage(this.BACKGROUND_KEY2, img)
+      if (notify) this.notify("设置成功", "小组件背景图片已设置！稍后刷新生效")
+    }
+  }
+
+
+  async themeSetting() {
+    let a = new Alert()
+    const settings = this.getSettings()
+    const theme = Number(settings["theme"] === null ? 2 : settings["theme"])
+    a.title = "外观设置"
+    a.message = "自动适应，现版本有一个官方bug，暂不推荐使用"
+    a.addAction((theme === 0 ? '✅ ' : '') + "保持浅色")
+    a.addAction((theme === 1 ? '✅ ' : '') + "保持深色")
+    a.addAction((theme === 2 ? '✅ ' : '') + "自动适应")
+    a.addAction((theme === 3 ? '✅ ' : '') + "自定义")
+    a.addCancelAction("取消操作")
+    let i = await a.presentSheet()
+    let themeTime
+    if (i === -1) return
+    switch (i) {
+      case 0:
+        break;
+      case 1:
+        break
+      case 2:
+        break
+      case 3:
+        themeTime = await this.themeTimeSetting()
+        break
+      default:
+        return
+    }
+
+    this.settings["theme"] = i
+    if (themeTime !== null) {
+      this.settings["themeTime"] = String(themeTime)
+    }
+    this.saveSettings()
+  }
+
+  async themeTimeSetting() {
+    const settings = this.getSettings()
+    const arg = settings["themeTime"] || "7:00-22:00"
+    let a = new Alert()
+    a.title = "自定义"
+    a.message = "输入浅色开始时间到结束时间，例如：'7:00-22:00'"
+    a.addTextField("7:00-22:00", arg)
+    a.addAction("确认");
+    await a.presentAlert();
+    return a.textFieldValue(0);
+  }
+
+  async isUsingDark() {
+    const settings = this.getSettings()
+    const theme = Number(settings["theme"] === null ? 2 : settings["theme"])
+    var flag
+    switch (theme) {
+      case 0:
+        flag = false
+        break
+      case 1:
+        flag = true
+        break
+      case 2:
+        flag = await Device.isUsingDarkAppearance()
+        break
+      case 3:
+        const themeTime = settings["themeTime"] || "7:00-22:00"
+        let result = themeTime.trim().match(/^(\d{1,2}):(\d{1,2})-(\d{1,2}):(\d{1,2})$/)
+        if (result === null) {
+          console.log("外观设置-自适应 输入(" + themeTime + ")格式有误，无法解析。启动自动适应模式")
+          flag = await Device.isUsingDarkAppearance()
+          break
+        }
+        let date = new Date()
+        let themeTimeStartHours = Number(result[1])
+        let themeTimeStartMinutes = Number(result[2])
+        let themeTimeEndHours = Number(result[3])
+        let themeTimeEndMinutes = Number(result[4])
+
+        if (themeTimeStartHours < themeTimeEndHours || (themeTimeStartHours === themeTimeEndHours && themeTimeStartMinutes < themeTimeEndMinutes)) {
+          flag = !((date.getHours() > themeTimeStartHours || (date.getHours() === themeTimeStartHours && date.getMinutes() > themeTimeStartMinutes))
+              && (date.getHours() < themeTimeEndHours || (date.getHours() === themeTimeEndHours && date.getMinutes() < themeTimeEndMinutes)))
+        } else {
+          flag = (date.getHours() < themeTimeStartHours || (date.getHours() === themeTimeStartHours && date.getMinutes() < themeTimeStartMinutes))
+              && (date.getHours() > themeTimeEndHours || (date.getHours() === themeTimeEndHours && date.getMinutes() > themeTimeEndMinutes))
+        }
+        break
+      default:
+        flag = await Device.isUsingDarkAppearance()
+        break
+    }
+    return flag
+  }
+
+}
+// @base.end
+// 运行环境
+// @running.start
+const Running = async (Widget, default_args = "") => {
+  let M = null
+  // 判断hash是否和当前设备匹配
+  if (config.runsInWidget) {
+    M = new Widget(args.widgetParameter || '')
+    const W = await M.render()
+    Script.setWidget(W)
+    Script.complete()
+  } else {
+    let { act, data, __arg, __size } = args.queryParameters
+    M = new Widget(__arg || default_args || '')
+    if (__size) M.init(__size)
+    if (!act || !M['_actions']) {
+      // 弹出选择菜单
+      const actions = M['_actions']
+      const _actions = [
+        // async () => {
+        //   Safari.openInApp("https://support.qq.com/products/287371", false)
+        // }
+        // 预览组件
+        async (debug = false) => {
+          let a = new Alert()
+          a.title = "预览组件"
+          a.message = "测试桌面组件在各种尺寸下的显示效果"
+          a.addAction("小尺寸 Small")
+          a.addAction("中尺寸 Medium")
+          a.addAction("大尺寸 Large")
+          a.addAction("全部 All")
+          a.addCancelAction("取消操作")
+          const funcs = []
+          if (debug) {
+            for (let _ in actions) {
+              a.addAction(_)
+              funcs.push(actions[_].bind(M))
+            }
+            a.addDestructiveAction("停止调试")
+          }
+          let i = await a.presentSheet()
+          if (i === -1) return
+          let w
+          switch (i) {
+            case 0:
+              M.widgetFamily = 'small'
+              w = await M.render()
+              await w.presentSmall()
+              break;
+            case 1:
+              M.widgetFamily = 'medium'
+              w = await M.render()
+              await w.presentMedium()
+              break
+            case 2:
+              M.widgetFamily = 'large'
+              w = await M.render()
+              await w.presentLarge()
+              break
+            case 3:
+              M.widgetFamily = 'small'
+              w = await M.render()
+              await w.presentSmall()
+              M.widgetFamily = 'medium'
+              w = await M.render()
+              await w.presentMedium()
+              M.widgetFamily = 'large'
+              w = await M.render()
+              await w.presentLarge()
+              break
+            default:
+              const func = funcs[i - 4];
+              if (func) await func();
+              break;
+          }
+
+          return i
+        },
+      ]
+      const alert = new Alert()
+      alert.title = M.name
+      alert.message = M.desc
+      // alert.addAction("反馈交流")
+      alert.addAction("预览组件")
+
+      for (let _ in actions) {
+        alert.addAction(_)
+        _actions.push(actions[_])
+      }
+      alert.addCancelAction("取消操作")
+      const idx = await alert.presentSheet()
+      if (_actions[idx]) {
+        const func = _actions[idx]
+        await func()
+      }
+      return
+    }
+    let _tmp = act.split('-').map(_ => _[0].toUpperCase() + _.substr(1)).join('')
+    let _act = `action${_tmp}`
+    if (M[_act] && typeof M[_act] === 'function') {
+      const func = M[_act].bind(M)
+      await func(data)
+    }
+  }
+}
+
+
+class Widget extends Base {
+    /**
+     * 传递给组件的参数，可以是桌面 Parameter 数据，也可以是外部如 URLScheme 等传递的数据
+     * @param {string} arg 自定义参数
+     */
+    constructor(arg) {
+        super(arg)
+        this.name = '中国电信面板'
+        this.desc = '一个展示电信话费、流量的小插件'
+        this.config = {
+            canvSize: 100,
+            canvRadius: 100,
+            canvWidth: 5, // circle thickness
+            canvTextSize: 40,
+            dayRadiusOffset: 60,
+
+            line1: {
+                circleIcon: 'network',
+                circleUrlIcon: null,
+                label: "话费余额",
+                unit: "元",
+            },
+            line2: {
+                circleIcon: 'waveform.path.badge.minus',
+                circleUrlIcon: null,
+                label: "通用流量",
+                unit: "M",
+            }
+
+        }
+        this.configLight = {
+            backgroundColor: new Color('#fff'),
+            textColor: new Color('#000'),
+            line1: {
+                fgCircleColor: new Color('#dddef3'),
+                percentColor: new Color('#000'),
+                circleColor: new Color('#1a7bf3'),
+                iconColor: new Color('#1a7bf3'),
+                textColor: new Color('#000'),
+            },
+            line2: {
+                fgCircleColor: new Color('#dddef3'),
+                percentColor: new Color('#000'),
+                circleColor: new Color('#1a7bf3'),
+                iconColor: new Color('#1a7bf3'),
+                textColor: new Color('#000'),
+            }
+        }
+        this.configDark = {
+            backgroundColor: new Color('#1c1c1e'),
+            textColor: new Color('#eaeaea'),
+            line1: {
+                fgCircleColor: new Color('#fff'),
+                percentColor: new Color('#eaeaea'),
+                circleColor: new Color('#1a7bf3'),
+                iconColor: new Color('#1a7bf3'),
+                textColor: new Color('#eaeaea'),
+            },
+            line2: {
+                fgCircleColor: new Color('#fff'),
+                percentColor: new Color('#eaeaea'),
+                circleColor: new Color('#1a7bf3'),
+                iconColor: new Color('#1a7bf3'),
+                textColor: new Color('#eaeaea'),
+            }
+        }
+
+        this.registerAction('地址设置', this.actionSetting.bind(this))
+        this.registerAction('外观设置', this.themeSetting.bind(this))
+    }
+
+    /**
+     * 渲染函数，函数名固定
+     * 可以根据 this.widgetFamily 来判断小组件尺寸，以返回不同大小的内容
+     */
+    async render() {
+        const data = await this.getData()
+        switch (this.widgetFamily) {
+            case 'large':
+                return await this.renderLarge(data)
+            case 'medium':
+                return await this.renderMedium(data)
+            default:
+                return await this.renderSmall(data)
+        }
+    }
+
+    /**
+     * 渲染小尺寸组件
+     */
+    async renderSmall(data) {
+
+        var config = this.configLight
+        if (await this.isUsingDark()) {
+            config = this.configDark
+        }
+
+        let w = new ListWidget()
+        w.backgroundColor = config.backgroundColor
+
+        let balance = w.addStack()
+        await this.renderLine(balance, data.totalRatio, data.balance, this.config.line1.unit, this.config.line1, config.line1)
+
+        let r2 = w.addStack()
+        await this.renderLine(r2, data.generalRatio, data.generalRemainder, data.generalUnit, this.config.line2, config.line2)
+
+        const stackDescFooter = w.addStack();
+        stackDescFooter.centerAlignContent();
+
+        stackDescFooter.addSpacer();
+        const count = stackDescFooter.addText(`更新时间：${data.createTime}`)
+        count.font = Font.lightSystemFont(10)
+        count.textColor = config.textColor
+        stackDescFooter.addSpacer();
+
+        return w
+    }
+
+    /**
+     * 渲染中尺寸组件
+     */
+    async renderMedium(data, num = 3) {
+        let w = new ListWidget()
+        w.addText("待开发")
+        return w
+    }
+
+    /**
+     * 渲染大尺寸组件
+     */
+    async renderLarge(data) {
+        return await this.renderMedium(data, 10)
+    }
+
+    /**
+     * 获取数据函数，函数名可不固定
+     */
+    async getData() {
+
+        var data = {
+            "code": 200,
+            "data": {
+                "username": "",
+                "use": 0,
+                "total": 0,
+                "generalUse": 0,
+                "generalTotal": 0,
+                "specialUse": 0,
+                "specialTotal": 0,
+                "balance": 0,
+                "voiceUsage": 0,
+                "voiceAmount": 0,
+                "createTime": "0000-00-00 00:00:00"
+            }
+        }
+
+        const settings = this.getSettings()
+        const api = settings["url"] || ""
+        if (api !== "") {
+            data = await this.httpGet(api, true, false)
+        }
+
+        var d = data.data
+
+        let balance = (d.balance / 100).toFixed(2)
+        let totalRatio = (d.total - d.use) / d.total * 100
+        totalRatio = (totalRatio | 0)
+        let generalRatio = (d.generalTotal - d.generalUse) / d.generalTotal * 100
+        generalRatio = (generalRatio | 0)
+        let generalRemainder = d.generalTotal - d.generalUse
+        let generalUnit = 'KB'
+        if (generalRemainder > 1048576) {
+            generalRemainder = generalRemainder / 1024 / 1024
+            generalUnit = "GB"
+        } else if (generalRemainder > 1024) {
+            generalRemainder = generalRemainder / 1024
+            generalUnit = "MB"
+        }
+
+        let getDataTime = new Date(d.createTime.replace(/-/g, '/'))
+
+        let month = (getDataTime.getMonth() | 0)
+        let day = (getDataTime.getDay() | 0)
+        let hours = (getDataTime.getHours() | 0)
+        let minutes = (getDataTime.getMinutes() | 0)
+
+        let createTime = hours + ":" + (minutes.toString().length > 1 ? minutes : '0' + minutes)
+        let newDate = new Date()
+        if (newDate.getDay() !== day || newDate.getMonth() !== month) {
+            createTime = (month.toString().length > 1 ? month : '0' + month) + '/' + (day.toString().length > 1 ? day : '0' + day) + ' ' + createTime
+        }
+        return {
+            balance: balance,
+            totalRatio: (totalRatio).toFixed(0),
+            generalRatio: (generalRatio).toFixed(0),
+            generalRemainder: (generalRemainder).toFixed(2),
+            generalUnit: generalUnit,
+            createTime: createTime
+        }
+    }
+
+    /**
+     * 自定义注册点击事件，用 actionUrl 生成一个触发链接，点击后会执行下方对应的 action
+     * @param {string} url 打开的链接
+     */
+    async actionOpenUrl(url) {
+        Safari.openInApp(url, false)
+    }
+
+    async renderLine(stack, ratio, value, unit, configLine, configTheme) {
+        const stackCircle = stack.addStack();
+        const canvas = await this.makeCanvas();
+        stackCircle.size = new Size(70, 70);
+        this.makeCircle(
+            canvas,
+            this.config.dayRadiusOffset,
+            ratio * 3.6,
+            configTheme
+        );
+        this.drawText(ratio, canvas, 75, 18, configTheme);
+        this.drawPointText(`%`, canvas, new Point(65, 50), 14, configTheme);
+        stackCircle.backgroundImage = canvas.getImage();
+        //
+        stackCircle.setPadding(20, 0, 0, 0);
+        stackCircle.addSpacer();
+
+        const icon = configLine.circleUrlIcon
+            ? {image: configLine.circleUrlIcon}
+            : SFSymbol.named(configLine.circleIcon);
+        const imageIcon = stackCircle.addImage(icon.image);
+
+        imageIcon.tintColor = configTheme.iconColor;
+        imageIcon.imageSize = new Size(15, 15);
+        canvas.drawImageInRect(icon.image, new Rect(110, 80, 60, 60));
+        stackCircle.addSpacer();
+
+        stack.addSpacer(5);
+        const stackDesc = stack.addStack();
+        stackDesc.size = new Size(70, 60);
+        stackDesc.centerAlignContent();
+        stackDesc.layoutVertically();
+        stackDesc.addSpacer(10);
+
+
+        const label = stackDesc.addText(configLine.label)
+        label.font = Font.mediumSystemFont(12)
+        label.textColor = configTheme.textColor
+
+        stackDesc.addSpacer(10);
+
+        const stackDescFooter = stackDesc.addStack();
+        stackDescFooter.centerAlignContent();
+
+
+        const count = stackDescFooter.addText(`${value}`)
+        count.font = Font.mediumSystemFont(16)
+        count.textColor = configTheme.textColor
+        stackDescFooter.addSpacer(2);
+
+
+        const unitText = stackDescFooter.addText(`${unit}`)
+        unitText.font = Font.mediumSystemFont(8)
+        unitText.textColor = configTheme.textColor
+
+        return stackCircle
+    }
+
+    async makeCanvas() {
+        const canvas = new DrawContext();
+        canvas.opaque = false;
+        canvas.respectScreenScale = true;
+        canvas.size = new Size(this.config.canvSize, this.config.canvSize);
+        return canvas;
+    }
+
+    makeCircle(canvas, radiusOffset, degree, configTheme) {
+        let ctr = new Point(this.config.canvSize / 2, this.config.canvSize / 2);
+        // Outer circle
+        const bgx = ctr.x - (this.config.canvRadius - radiusOffset);
+        const bgy = ctr.y - (this.config.canvRadius - radiusOffset);
+        const bgd = 2 * (this.config.canvRadius - radiusOffset);
+        const bgr = new Rect(bgx, bgy, bgd, bgd);
+        canvas.setStrokeColor(configTheme.fgCircleColor);
+        canvas.setLineWidth(2);
+        canvas.strokeEllipse(bgr);
+        // Inner circle
+        canvas.setFillColor(configTheme.circleColor);
+        for (let t = 0; t < degree; t++) {
+            const rect_x =
+                ctr.x +
+                (this.config.canvRadius - radiusOffset) * this.sinDeg(t) -
+                this.config.canvWidth / 2;
+            const rect_y =
+                ctr.y -
+                (this.config.canvRadius - radiusOffset) * this.cosDeg(t) -
+                this.config.canvWidth / 2;
+            const rect_r = new Rect(rect_x, rect_y, this.config.canvWidth, this.config.canvWidth);
+            canvas.fillEllipse(rect_r);
+        }
+        return canvas
+    }
+
+    sinDeg(deg) {
+        return Math.sin((deg * Math.PI) / 180);
+    }
+
+    cosDeg(deg) {
+        return Math.cos((deg * Math.PI) / 180);
+    }
+
+    drawText(txt, canvas, txtOffset, fontSize, configTheme) {
+        const txtRect = new Rect(
+            this.config.canvTextSize / 2 - 20,
+            txtOffset - this.config.canvTextSize / 2,
+            this.config.canvSize,
+            this.config.canvTextSize,
+        );
+        canvas.setTextColor(configTheme.percentColor);
+        canvas.setFont(Font.boldSystemFont(fontSize));
+        canvas.setTextAlignedCenter();
+        canvas.drawTextInRect(`${txt}`, txtRect);
+    }
+
+    drawPointText(txt, canvas, txtPoint, fontSize, configTheme) {
+        canvas.setTextColor(configTheme.percentColor);
+        canvas.setFont(Font.boldSystemFont(fontSize));
+        canvas.drawText(txt, txtPoint);
+    }
+
+    async actionSetting() {
+        const settings = this.getSettings()
+        const arg = settings["url"] || ""
+        let a = new Alert()
+        a.title = "设置地址"
+        a.message = "输入ChinaTelecomMonitor访问地址"
+        a.addTextField("", arg)
+        a.addAction("确认");
+        await a.presentAlert();
+        let result = a.textFieldValue(0);
+        this.settings["url"] = String(result)
+        this.saveSettings()
+    }
+
+    async themeSetting() {
+        let a = new Alert()
+        const settings = this.getSettings()
+        const theme = Number(settings["theme"] === null ? 2 : settings["theme"])
+        a.title = "外观设置"
+        a.message = "自动适应，现版本有一个官方bug，暂不推荐使用"
+        a.addAction((theme === 0 ? '✅ ' : '') + "保持浅色")
+        a.addAction((theme === 1 ? '✅ ' : '') + "保持深色")
+        a.addAction((theme === 2 ? '✅ ' : '') + "自动适应")
+        a.addAction((theme === 3 ? '✅ ' : '') + "自定义")
+        a.addCancelAction("取消操作")
+        let i = await a.presentSheet()
+        let themeTime
+        if (i === -1) return
+        switch (i) {
+            case 0:
+                break;
+            case 1:
+                break
+            case 2:
+                break
+            case 3:
+                themeTime = await this.themeTimeSetting()
+                break
+            default:
+                return
+        }
+
+        this.settings["theme"] = i
+        if (themeTime !== null) {
+            this.settings["themeTime"] = String(themeTime)
+        }
+        this.saveSettings()
+    }
+
+
+    async themeTimeSetting() {
+        const settings = this.getSettings()
+        const arg = settings["themeTime"] || "7:00-22:00"
+        let a = new Alert()
+        a.title = "自定义"
+        a.message = "输入浅色开始时间到结束时间，例如：'7:00-22:00'"
+        a.addTextField("7:00-22:00", arg)
+        a.addAction("确认");
+        await a.presentAlert();
+        return a.textFieldValue(0);
+    }
+
+    async isUsingDark() {
+        const settings = this.getSettings()
+        const theme = Number(settings["theme"] === null ? 2 : settings["theme"])
+        var flag
+        switch (theme) {
+            case 0:
+                flag = false
+                break
+            case 1:
+                flag = true
+                break
+            case 2:
+                flag = await Device.isUsingDarkAppearance()
+                break
+            case 3:
+                const themeTime = settings["themeTime"] || "7:00-22:00"
+                let result = themeTime.trim().match(/^(\d{1,2}):(\d{1,2})-(\d{1,2}):(\d{1,2})$/)
+                if (result === null) {
+                    console.log("外观设置-自适应 输入(" + themeTime + ")格式有误，无法解析。启动自动适应模式")
+                    flag = await Device.isUsingDarkAppearance()
+                    break
+                }
+                let date = new Date()
+                let themeTimeStartHours = Number(result[1])
+                let themeTimeStartMinutes = Number(result[2])
+                let themeTimeEndHours = Number(result[3])
+                let themeTimeEndMinutes = Number(result[4])
+
+                if (themeTimeStartHours < themeTimeEndHours || (themeTimeStartHours === themeTimeEndHours && themeTimeStartMinutes < themeTimeEndMinutes)) {
+                    flag = !((date.getHours() > themeTimeStartHours || (date.getHours() === themeTimeStartHours && date.getMinutes() > themeTimeStartMinutes))
+                        && (date.getHours() < themeTimeEndHours || (date.getHours() === themeTimeEndHours && date.getMinutes() < themeTimeEndMinutes)))
+                } else {
+                    flag = (date.getHours() < themeTimeStartHours || (date.getHours() === themeTimeStartHours && date.getMinutes() < themeTimeStartMinutes))
+                        && (date.getHours() > themeTimeEndHours || (date.getHours() === themeTimeEndHours && date.getMinutes() > themeTimeEndMinutes))
+                }
+                break
+            default:
+                flag = await Device.isUsingDarkAppearance()
+                break
+        }
+        return flag
+    }
+
+
+    // async isUsingDarkAppearance() {
+    //     const wv = new WebView()
+    //     let js ="(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)"
+    //     let r = await wv.evaluateJavaScript(js)
+    //     return r
+    // }
+
+}
+
+
+await Running(Widget)
