@@ -66,7 +66,7 @@ FILE_MGR.remove(module.filename);
 Safari.open("scriptable:///open?scriptName="+encodeURIComponent('ChinaTelecomPanel.enc'));
 ```
 
-（上面列出的是“代码压缩版”，需要非压缩版本可在git仓库内自行下载）
+（上面列出的是“代码压缩版”，需要非压缩版本可在github仓库内自行下载）
 
 ### 2.在手机打开 [Scriptable](scriptable:///add?scriptName=hello) ，点击 ➕，粘贴，运行 ▶️
 
