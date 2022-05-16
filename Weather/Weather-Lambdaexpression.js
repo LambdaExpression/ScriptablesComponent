@@ -5,7 +5,6 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-gray; icon-glyph: code-branch;
 // 
-// name:Weather-Lambdaexpression.js
 // https://github.com/LambdaExpression/Scriptables
 // 
 
@@ -1657,7 +1656,7 @@ class Widget extends Base {
 
         let ultravioletColor = this.config.bodyUltravioletProgressColor[String(now.ultraviolet.index)]
         await this.drawProgress(canvas, "紫外线指数:", now.ultraviolet.desc, descLenght, now.ultraviolet.index, now.ultraviolet.maxIndex, ultravioletColor, 0, 0, canvasWidth / 2, canvasHeight / 2)
-        await this.drawProgress(canvas, "相对湿度值:", String(now.humidity) + "%", descLenght, now.humidity, 1, this.config.bodyHumidityColor, 0, 0 + canvasHeight / 2, canvasWidth / 2, canvasHeight / 2)
+        await this.drawProgress(canvas, "相对湿度值:", String(now.humidity*100) + "%", descLenght, now.humidity, 1, this.config.bodyHumidityColor, 0, 0 + canvasHeight / 2, canvasWidth / 2, canvasHeight / 2)
 
         let x2 = canvasWidth / 2 + 20
         let x3 = x2 + 5 * this.general.bodyTextWidth
