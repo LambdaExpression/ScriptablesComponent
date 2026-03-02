@@ -26,6 +26,10 @@
   <img width="49%" src="https://lambdaexpression.github.io/ScriptablesComponent/Weather/weather04.png">
 </p>
 
+## **重要说明**
+
+彩云天气官网api 已发生变更，需要付费使用。该组件已经不再计划更新适配，有天气需求的话请另寻其他组件。
+
 ## 介绍
 
 Weather 小组件是使用 彩云天气api 获取天气信息
